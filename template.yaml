@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  gs-express-ts-poc
+  Sample SAM Template for gs-express-ts-poc
+  
+# More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
+Globals:
+  Function:
+    Timeout: 3
+
+Resources:
+  ExpressBackend:
+    Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
+    Properties:
+      CodeUri: src/
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+        - x86_64
+      Events:
+        HelloWorld:
+          Type: HttpApi
+          Properties:
+            Path: /{proxy+}
+            Method: get
+      VpcConfig:
+        SecurityGroupIds:
+          - sg-8e2028fc
+        SubnetIds:
+          - subnet-a4c82ad9
+          - subnet-ead06481
+
+Outputs:
+  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+  # Find out more about other implicit resources you can reference within SAM
+  # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
+  HelloWorldApi:
+    Description: API Gateway endpoint URL for Prod stage for Hello World function
+    Value:
+      Fn::Sub: https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com/
+  ExpressBackendFunction:
+    Description: Express Backend Lambda Function ARN
+    Value: !Sub ExpressBackend.Arn
+  ExpressBackendIamRole:
+    Description: Implicit IAM Role created for Hello World function
+    Value: !Sub ExpressBackendFunctionRole.Arn
