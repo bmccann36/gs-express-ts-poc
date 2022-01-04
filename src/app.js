@@ -1,28 +1,28 @@
-//3rd party dependencies
-var express = require('express');
-const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
-const getRoutes = require('./routes');
+const express = require('express')
+const bodyParser = require('body-parser')
+// const cors = require('cors')
+const { getCurrentInvoke } = require('@vendia/serverless-express')
+const app = express()
+const router = express.Router()
 
 
-function createApp(dbConnection) {
-  console.log('creating app');
-  // declare a new express app
-  const app = express();
-  app.use(awsServerlessExpressMiddleware.eventContext());
-  // Enable CORS for all methods
-  app.use(function (req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Headers', '*');
-    next();
+// router.use(cors())
+router.use(bodyParser.json())
+router.use(bodyParser.urlencoded({ extended: true }))
+
+router.get('/api', (req, res) => {
+  res.json({
+    success: 'get call succeed!',
+    // data: data[0],
+    url: req.url
   });
-  // register the path '/api' with router
-  app.use('/api', getRoutes(dbConnection));
+})
 
-  // start listening (and create a 'server' object representing our server)
-  app.listen(3000, function () {
-    console.log('App started');
-  });
-  return app;
-}
 
-module.exports = createApp;
+// The serverless-express library creates a server and listens on a Unix
+// Domain Socket for you, so you can remove the usual call to app.listen.
+// app.listen(3000)
+app.use('/', router)
+
+// Export your express server so you can import it in the lambda function.
+module.exports = app
