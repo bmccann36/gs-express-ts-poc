@@ -1,14 +1,28 @@
-const serverless = require('serverless-http');
-const express = require('express');
+//3rd party dependencies
+var express = require('express');
+const awsServerlessExpressMiddleware = require('aws-serverless-express/middleware');
+const getRoutes = require('./routes');
 
-const app = new express();
 
-app.get('/', (req, res) => {
-    res.send('Hello World')
-});
+function createApp(dbConnection) {
+  console.log('creating app');
+  // declare a new express app
+  const app = express();
+  app.use(awsServerlessExpressMiddleware.eventContext());
+  // Enable CORS for all methods
+  app.use(function (req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', '*');
+    next();
+  });
+  // register the path '/api' with router
+  app.use('/api', getRoutes(dbConnection));
 
-app.get('/test', (req, res) => {
-  res.send('this is a test')
-});
+  // start listening (and create a 'server' object representing our server)
+  app.listen(3000, function () {
+    console.log('App started');
+  });
+  return app;
+}
 
-module.exports.lambdaHandler = serverless(app);
+module.exports = createApp;

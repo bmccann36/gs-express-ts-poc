@@ -14,7 +14,7 @@ Resources:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
       CodeUri: src/
-      Handler: app.lambdaHandler
+      Handler: handler.main
       Runtime: nodejs14.x
       Architectures:
         - x86_64
@@ -30,6 +30,8 @@ Resources:
         SubnetIds:
           - subnet-a4c82ad9
           - subnet-ead06481
+      Policies:
+
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
