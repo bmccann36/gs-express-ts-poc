@@ -1,0 +1,7 @@
+{
+  "ExpressBackend": {
+    "DB_USER": "postgres",
+    "DB_HOST": "db",
+    "DB_PASSWORD": "example"
+  }
+}
