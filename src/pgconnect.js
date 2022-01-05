@@ -19,7 +19,7 @@ module.exports = async function () {
     .query('SELECT * FROM ORGANIZATION')
     .then(res => {
       console.log("-------");
-      console.log("\n RES IS ***\n " + res.rows[0])
+      console.log(JSON.stringify(res.rows[0]))
     }
     )
   await client.end();
