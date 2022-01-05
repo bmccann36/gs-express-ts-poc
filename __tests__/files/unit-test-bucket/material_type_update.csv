@@ -1,0 +1,6 @@
+Number,Commodity Code,Type,Commodity,Material Name,Material Code,Code,Benchmark,Adjustment Date,Sell Price,Spread,Default Buy,UM,Price Type
+91,ICW,NF,Insulated Cu Wire,No. 2 Ins Cu. (min. 45%)+,,INS245,,,,,$1.61,lb,Spot
+92,AL,NF,Aluminum,Compressors,,COMPRESSORS,,,,,$0.90,lb,Spot
+93,ICW,NF,Insulated Cu Wire,No. 2 Ins Cu.,,INS2,,,,,$2.00,lb,Spot
+94,ICW,NF,Insulated Cu Wire,No. 1 Ins Cu.,,INS1,,,,,$3.10,lb,Spot
+95,AL,NF,Aluminum,Aluminum Wheels Chrome Dirty,,CHROMEWHEELSDIRTY,,,,,$0.70,lb,Spot

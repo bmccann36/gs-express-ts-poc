@@ -1,0 +1,77 @@
+{
+  "resultsReturned": 3,
+  "page": 1,
+  "totalWeight": {
+    "amount": 100000,
+    "units": "lbs"
+  },
+  "totalCost": {
+    "amount": 100000,
+    "currency": "usd",
+    "precision": 0
+  },
+  "largestMaterialByWeight": "Aluminum 01",
+  "largestMaterialByValue": "Copper Bare Bright",
+  "weightReceivedYesterday": {
+    "amount": 10000,
+    "units": "lbs"
+  },
+  "weightShippedYesterday": {
+    "amount": 10000,
+    "units": "lbs"
+  },
+  "data": [
+    {
+      "id": "1234",
+      "name": "Aluminum",
+      "wip": {
+        "amount": 1000,
+        "units": "lbs"
+      },
+      "finishedGoods": {
+        "amount": 1000,
+        "units": "lbs"
+      },
+      "total": {
+        "amount": 2000,
+        "units": "lbs"
+      },
+      "averageCost": {
+        "amount": 1,
+        "currency": "usd",
+        "precision": 0
+      },
+      "value": {
+        "amount": 2000,
+        "currency": "usd",
+        "precision": 0
+      }
+    },
+    {
+      "id": "5678",
+      "name": "Copper",
+      "wip": {
+        "amount": 2000,
+        "units": "lbs"
+      },
+      "finishedGoods": {
+        "amount": 3000,
+        "units": "lbs"
+      },
+      "total": {
+        "amount": 5000,
+        "units": "lbs"
+      },
+      "averageCost": {
+        "amount": 312,
+        "currency": "usd",
+        "precision": 2
+      },
+      "value": {
+        "amount": 15600 ,
+        "currency": "usd",
+        "precision": 0
+      }
+    }
+  ]
+}

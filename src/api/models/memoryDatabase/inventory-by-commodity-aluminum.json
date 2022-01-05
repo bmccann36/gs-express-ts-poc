@@ -1,0 +1,595 @@
+{
+    "resultsReturned": 19,
+    "page": 1,
+    "wipWeight": {
+        "amount": 472249,
+        "units": "lbs",
+        "commonString": "472249 lbs"
+    },
+    "wipCost": {},
+    "finishedGoodWeight": {
+        "amount": 258500,
+        "units": "lbs",
+        "commonString": "258500 lbs"
+    },
+    "finishedGoodCost": {},
+    "largestMaterialByWeight": "",
+    "largestMaterialByValue": "",
+    "weightReceivedYesterday": {},
+    "weightShippedYesterday": {},
+    "commodity": {
+        "name": "Aluminum"
+    },
+    "data": [
+        {
+            "name": "1100 Scrap",
+            "wip": {
+                "amount": 38062,
+                "units": "lbs",
+                "commonString": "38062 lbs"
+            },
+            "finishedGoods": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "total": {
+                "amount": 53062,
+                "units": "lbs",
+                "commonString": "53062 lbs"
+            },
+            "averageCost": {
+                "amount": 49,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.49/lbs"
+            },
+            "value": {
+                "amount": 25923,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$25,923"
+            }
+        },
+        {
+            "name": "3003 Scrap",
+            "wip": {
+                "amount": 79325,
+                "units": "lbs",
+                "commonString": "79325 lbs"
+            },
+            "finishedGoods": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "total": {
+                "amount": 84325,
+                "units": "lbs",
+                "commonString": "84325 lbs"
+            },
+            "averageCost": {
+                "amount": 48,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.48/lbs"
+            },
+            "value": {
+                "amount": 40572,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$40,572"
+            }
+        },
+        {
+            "name": "356 Aluminum Wheels (Clean)",
+            "wip": {
+                "amount": 30431,
+                "units": "lbs",
+                "commonString": "30431 lbs"
+            },
+            "finishedGoods": {
+                "amount": 7000,
+                "units": "lbs",
+                "commonString": "7000 lbs"
+            },
+            "total": {
+                "amount": 37431,
+                "units": "lbs",
+                "commonString": "37431 lbs"
+            },
+            "averageCost": {
+                "amount": 49,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.49/lbs"
+            },
+            "value": {
+                "amount": 18319,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$18,319"
+            }
+        },
+        {
+            "name": "5052 Scrap",
+            "wip": {
+                "amount": 36994,
+                "units": "lbs",
+                "commonString": "36994 lbs"
+            },
+            "finishedGoods": {
+                "amount": 3500,
+                "units": "lbs",
+                "commonString": "3500 lbs"
+            },
+            "total": {
+                "amount": 40494,
+                "units": "lbs",
+                "commonString": "40494 lbs"
+            },
+            "averageCost": {
+                "amount": 73,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.73/lbs"
+            },
+            "value": {
+                "amount": 29695,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$29,695"
+            }
+        },
+        {
+            "name": "6061 Extrusions",
+            "wip": {
+                "amount": 42548,
+                "units": "lbs",
+                "commonString": "42548 lbs"
+            },
+            "finishedGoods": {
+                "amount": 6000,
+                "units": "lbs",
+                "commonString": "6000 lbs"
+            },
+            "total": {
+                "amount": 48548,
+                "units": "lbs",
+                "commonString": "48548 lbs"
+            },
+            "averageCost": {
+                "amount": 46,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.46/lbs"
+            },
+            "value": {
+                "amount": 22549,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$22,549"
+            }
+        },
+        {
+            "name": "6063 Extrusions",
+            "wip": {
+                "amount": 19352,
+                "units": "lbs",
+                "commonString": "19352 lbs"
+            },
+            "finishedGoods": {
+                "amount": 28000,
+                "units": "lbs",
+                "commonString": "28000 lbs"
+            },
+            "total": {
+                "amount": 47352,
+                "units": "lbs",
+                "commonString": "47352 lbs"
+            },
+            "averageCost": {
+                "amount": 62,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.62/lbs"
+            },
+            "value": {
+                "amount": 29176,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$29,176"
+            }
+        },
+        {
+            "name": "6063 Extrusions/Fe",
+            "wip": {
+                "amount": 5487,
+                "units": "lbs",
+                "commonString": "5487 lbs"
+            },
+            "finishedGoods": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "total": {
+                "amount": 20487,
+                "units": "lbs",
+                "commonString": "20487 lbs"
+            },
+            "averageCost": {
+                "amount": 43,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.43/lbs"
+            },
+            "value": {
+                "amount": 8739,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$8,739"
+            }
+        },
+        {
+            "name": "Al/Cu Radiators",
+            "wip": {
+                "amount": 31826,
+                "units": "lbs",
+                "commonString": "31826 lbs"
+            },
+            "finishedGoods": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "total": {
+                "amount": 36826,
+                "units": "lbs",
+                "commonString": "36826 lbs"
+            },
+            "averageCost": {
+                "amount": 131,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$1.31/lbs"
+            },
+            "value": {
+                "amount": 48143,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$48,143"
+            }
+        },
+        {
+            "name": "Al/Cu Radiators /Fe",
+            "wip": {
+                "amount": 17881,
+                "units": "lbs",
+                "commonString": "17881 lbs"
+            },
+            "finishedGoods": {
+                "amount": 22000,
+                "units": "lbs",
+                "commonString": "22000 lbs"
+            },
+            "total": {
+                "amount": 39881,
+                "units": "lbs",
+                "commonString": "39881 lbs"
+            },
+            "averageCost": {
+                "amount": 114,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$1.15/lbs"
+            },
+            "value": {
+                "amount": 45824,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$45,824"
+            }
+        },
+        {
+            "name": "Aluminum Radiators",
+            "wip": {
+                "amount": 12860,
+                "units": "lbs",
+                "commonString": "12860 lbs"
+            },
+            "finishedGoods": {
+                "amount": 18000,
+                "units": "lbs",
+                "commonString": "18000 lbs"
+            },
+            "total": {
+                "amount": 30860,
+                "units": "lbs",
+                "commonString": "30860 lbs"
+            },
+            "averageCost": {
+                "amount": 32,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.32/lbs"
+            },
+            "value": {
+                "amount": 9843,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,843"
+            }
+        },
+        {
+            "name": "Aluminum Radiators /Fe",
+            "wip": {
+                "amount": 4201,
+                "units": "lbs",
+                "commonString": "4201 lbs"
+            },
+            "finishedGoods": {
+                "amount": 33000,
+                "units": "lbs",
+                "commonString": "33000 lbs"
+            },
+            "total": {
+                "amount": 37201,
+                "units": "lbs",
+                "commonString": "37201 lbs"
+            },
+            "averageCost": {
+                "amount": 26,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.26/lbs"
+            },
+            "value": {
+                "amount": 9583,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,583"
+            }
+        },
+        {
+            "name": "Aluminum Transformers",
+            "wip": {
+                "amount": 702,
+                "units": "lbs",
+                "commonString": "702 lbs"
+            },
+            "finishedGoods": {
+                "amount": 20000,
+                "units": "lbs",
+                "commonString": "20000 lbs"
+            },
+            "total": {
+                "amount": 20702,
+                "units": "lbs",
+                "commonString": "20702 lbs"
+            },
+            "averageCost": {
+                "amount": 13,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.13/lbs"
+            },
+            "value": {
+                "amount": 2794,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$2,794"
+            }
+        },
+        {
+            "name": "Breakage 50% Recovery",
+            "wip": {
+                "amount": 32826,
+                "units": "lbs",
+                "commonString": "32826 lbs"
+            },
+            "finishedGoods": {
+                "amount": 25000,
+                "units": "lbs",
+                "commonString": "25000 lbs"
+            },
+            "total": {
+                "amount": 57826,
+                "units": "lbs",
+                "commonString": "57826 lbs"
+            },
+            "averageCost": {
+                "amount": 17,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.17/lbs"
+            },
+            "value": {
+                "amount": 9720,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,720"
+            }
+        },
+        {
+            "name": "Aluminum Clips",
+            "wip": {
+                "amount": 18913,
+                "units": "lbs",
+                "commonString": "18913 lbs"
+            },
+            "finishedGoods": {
+                "amount": 0,
+                "units": "lbs",
+                "commonString": "0 lbs"
+            },
+            "total": {
+                "amount": 18913,
+                "units": "lbs",
+                "commonString": "18913 lbs"
+            },
+            "averageCost": {
+                "amount": 48,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.48/lbs"
+            },
+            "value": {
+                "amount": 9094,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,094"
+            }
+        },
+        {
+            "name": "Old Cast",
+            "wip": {
+                "amount": 15675,
+                "units": "lbs",
+                "commonString": "15675 lbs"
+            },
+            "finishedGoods": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "total": {
+                "amount": 20675,
+                "units": "lbs",
+                "commonString": "20675 lbs"
+            },
+            "averageCost": {
+                "amount": 45,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.45/lbs"
+            },
+            "value": {
+                "amount": 9304,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,304"
+            }
+        },
+        {
+            "name": "Old Sheet",
+            "wip": {
+                "amount": 41372,
+                "units": "lbs",
+                "commonString": "41372 lbs"
+            },
+            "finishedGoods": {
+                "amount": 3500,
+                "units": "lbs",
+                "commonString": "3500 lbs"
+            },
+            "total": {
+                "amount": 44872,
+                "units": "lbs",
+                "commonString": "44872 lbs"
+            },
+            "averageCost": {
+                "amount": 46,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.46/lbs"
+            },
+            "value": {
+                "amount": 20557,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$20,557"
+            }
+        },
+        {
+            "name": "Painted Siding",
+            "wip": {
+                "amount": 26663,
+                "units": "lbs",
+                "commonString": "26663 lbs"
+            },
+            "finishedGoods": {
+                "amount": 7500,
+                "units": "lbs",
+                "commonString": "7500 lbs"
+            },
+            "total": {
+                "amount": 34163,
+                "units": "lbs",
+                "commonString": "34163 lbs"
+            },
+            "averageCost": {
+                "amount": 45,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.45/lbs"
+            },
+            "value": {
+                "amount": 15349,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$15,349"
+            }
+        },
+        {
+            "name": "UBC",
+            "wip": {
+                "amount": 2681,
+                "units": "lbs",
+                "commonString": "2681 lbs"
+            },
+            "finishedGoods": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "total": {
+                "amount": 17681,
+                "units": "lbs",
+                "commonString": "17681 lbs"
+            },
+            "averageCost": {
+                "amount": 53,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.53/lbs"
+            },
+            "value": {
+                "amount": 9423,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$9,423"
+            }
+        },
+        {
+            "name": "Zorba 90% NF",
+            "wip": {
+                "amount": 14450,
+                "units": "lbs",
+                "commonString": "14450 lbs"
+            },
+            "finishedGoods": {
+                "amount": 25000,
+                "units": "lbs",
+                "commonString": "25000 lbs"
+            },
+            "total": {
+                "amount": 39450,
+                "units": "lbs",
+                "commonString": "39450 lbs"
+            },
+            "averageCost": {
+                "amount": 46,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.46/lbs"
+            },
+            "value": {
+                "amount": 18153,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$18,153"
+            }
+        }
+    ]
+}

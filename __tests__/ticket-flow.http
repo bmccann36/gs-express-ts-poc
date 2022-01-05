@@ -1,0 +1,638 @@
+# Verify Commodities Material Types and Price Sheets exist
+#   If not Load Commodities, Materials-Types, and Prices in setup.http
+# Create an Incomplete Ticket with no material
+# Verify there is 1 ticket and no material
+# Verfiy customer was created
+# Update Ticket to Scale Complete with Material weights
+# Very there is 1 ticket and 1 material
+# Update Ticket to Price Complete with Material price
+# Verify Inventory Summary
+# Verify Inventory by Copper
+# Make a finished good
+# Verify Inventory Summary (w/ FG)
+# Verify Inventory by Copper
+
+GET http://localhost:3000/commodities?pageSize=100
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned >= 3, "Incorrect number of results");
+  client.global.set("cid1", response.body.Items[0].id);
+  client.global.set("cid2", response.body.Items[1].id);
+  client.global.set("cid3", response.body.Items[2].id);
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity/{{cid1}}
+Accept: application/json
+Authorization: Bearer eyJraWQiOiJcL2xOQ1BmQ2hHaFRta2hcL3lpTlJhdFdNTlJIR1wvRDdsY1ZxYzAyc0NrSHRRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYTcwY2RmNC0xYjcyLTRjZmUtOWVlMS1hY2FiOTkwMzljYjciLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfek5ucFVFa001IiwiY29nbml0bzp1c2VybmFtZSI6IjFhNzBjZGY0LTFiNzItNGNmZS05ZWUxLWFjYWI5OTAzOWNiNyIsIm9yaWdpbl9qdGkiOiIzNGM4YThmOC0wZmM1LTQ2YzYtYjljMS0wZTE4ODhjNjJjNjUiLCJhdWQiOiI3MWsxMjJtaGVvYTd1dXA1aXQ5ZTlzbmxqayIsImV2ZW50X2lkIjoiZTc2M2NhMDItYTFhMS00NWE2LTljZTYtM2Q5ZWZhYmM3ZmU2IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MzQ5MzY2MjAsImV4cCI6MTYzNDk0MDIyMCwiaWF0IjoxNjM0OTM2NjIwLCJqdGkiOiI2NzdjODI4Ni04MzFhLTQ2YTYtYTUwMC03YjAxOTYxNWVkNmIiLCJlbWFpbCI6ImRhbi5zY2hyaW1wc2hlckBnbWFpbC5jb20ifQ.FuKkqsx04XDBdm-W4SqJLqxkAanG4ALjcB21kmT9Rv2_59sjzQY9YQd3S_n4QZduzkxGlz3d8IkxYqFW-PMUY-1t4Dxe2AV2m7jclZ-2bj65sAOjYtyzZ1rO5Hrq3TJ81mv77IQ5xTw12zQ2ugr0lSSIPqqAfsxOZmKcaPXBZF6PfUOtdveXaIYrQijzLym5fjE0juqvszsJNyZ6gl8s2huKHEHK-m7180Jvvfv8ndMkJ4jelohvSS1axoLeH2EpMDQLJiDr6w-xmJ8eJGO0ZVouWCDS4wws26CPeVbjSekxwXRfa9t3GnCDwI_AyhxTulgyb98o25sC-XjCCHHfxw
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity/{{cid2}}
+Accept: application/json
+Authorization: Bearer eyJraWQiOiJcL2xOQ1BmQ2hHaFRta2hcL3lpTlJhdFdNTlJIR1wvRDdsY1ZxYzAyc0NrSHRRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYTcwY2RmNC0xYjcyLTRjZmUtOWVlMS1hY2FiOTkwMzljYjciLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfek5ucFVFa001IiwiY29nbml0bzp1c2VybmFtZSI6IjFhNzBjZGY0LTFiNzItNGNmZS05ZWUxLWFjYWI5OTAzOWNiNyIsIm9yaWdpbl9qdGkiOiIzNGM4YThmOC0wZmM1LTQ2YzYtYjljMS0wZTE4ODhjNjJjNjUiLCJhdWQiOiI3MWsxMjJtaGVvYTd1dXA1aXQ5ZTlzbmxqayIsImV2ZW50X2lkIjoiZTc2M2NhMDItYTFhMS00NWE2LTljZTYtM2Q5ZWZhYmM3ZmU2IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MzQ5MzY2MjAsImV4cCI6MTYzNDk0MDIyMCwiaWF0IjoxNjM0OTM2NjIwLCJqdGkiOiI2NzdjODI4Ni04MzFhLTQ2YTYtYTUwMC03YjAxOTYxNWVkNmIiLCJlbWFpbCI6ImRhbi5zY2hyaW1wc2hlckBnbWFpbC5jb20ifQ.FuKkqsx04XDBdm-W4SqJLqxkAanG4ALjcB21kmT9Rv2_59sjzQY9YQd3S_n4QZduzkxGlz3d8IkxYqFW-PMUY-1t4Dxe2AV2m7jclZ-2bj65sAOjYtyzZ1rO5Hrq3TJ81mv77IQ5xTw12zQ2ugr0lSSIPqqAfsxOZmKcaPXBZF6PfUOtdveXaIYrQijzLym5fjE0juqvszsJNyZ6gl8s2huKHEHK-m7180Jvvfv8ndMkJ4jelohvSS1axoLeH2EpMDQLJiDr6w-xmJ8eJGO0ZVouWCDS4wws26CPeVbjSekxwXRfa9t3GnCDwI_AyhxTulgyb98o25sC-XjCCHHfxw
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity/{{cid3}}
+Accept: application/json
+Authorization: Bearer eyJraWQiOiJcL2xOQ1BmQ2hHaFRta2hcL3lpTlJhdFdNTlJIR1wvRDdsY1ZxYzAyc0NrSHRRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxYTcwY2RmNC0xYjcyLTRjZmUtOWVlMS1hY2FiOTkwMzljYjciLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLnVzLWVhc3QtMi5hbWF6b25hd3MuY29tXC91cy1lYXN0LTJfek5ucFVFa001IiwiY29nbml0bzp1c2VybmFtZSI6IjFhNzBjZGY0LTFiNzItNGNmZS05ZWUxLWFjYWI5OTAzOWNiNyIsIm9yaWdpbl9qdGkiOiIzNGM4YThmOC0wZmM1LTQ2YzYtYjljMS0wZTE4ODhjNjJjNjUiLCJhdWQiOiI3MWsxMjJtaGVvYTd1dXA1aXQ5ZTlzbmxqayIsImV2ZW50X2lkIjoiZTc2M2NhMDItYTFhMS00NWE2LTljZTYtM2Q5ZWZhYmM3ZmU2IiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE2MzQ5MzY2MjAsImV4cCI6MTYzNDk0MDIyMCwiaWF0IjoxNjM0OTM2NjIwLCJqdGkiOiI2NzdjODI4Ni04MzFhLTQ2YTYtYTUwMC03YjAxOTYxNWVkNmIiLCJlbWFpbCI6ImRhbi5zY2hyaW1wc2hlckBnbWFpbC5jb20ifQ.FuKkqsx04XDBdm-W4SqJLqxkAanG4ALjcB21kmT9Rv2_59sjzQY9YQd3S_n4QZduzkxGlz3d8IkxYqFW-PMUY-1t4Dxe2AV2m7jclZ-2bj65sAOjYtyzZ1rO5Hrq3TJ81mv77IQ5xTw12zQ2ugr0lSSIPqqAfsxOZmKcaPXBZF6PfUOtdveXaIYrQijzLym5fjE0juqvszsJNyZ6gl8s2huKHEHK-m7180Jvvfv8ndMkJ4jelohvSS1axoLeH2EpMDQLJiDr6w-xmJ8eJGO0ZVouWCDS4wws26CPeVbjSekxwXRfa9t3GnCDwI_AyhxTulgyb98o25sC-XjCCHHfxw
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/material-types?pageSize=100
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned >= 28, "Incorrect number of results");
+  client.global.set("materialTypeId", response.body.Items[0].id);
+  client.global.set("materialTypeCode", response.body.Items[0].code);
+  client.global.set("mainCommodityId", response.body.Items[0].commodityId);
+
+});
+%}
+
+###
+GET http://localhost:3000/price-sheets
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned >= 1, "Incorrect number of results");
+});
+%}
+
+###
+POST http://localhost:3000/inbound-tickets
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+{
+  "customer": {
+        "customerCommonIdentifierString": "Bob Frog Construction"
+  }
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.global.set("ticketId", response.body.id);
+  client.global.set("customerId", response.body.customer.id);
+
+});
+%}
+
+###
+GET http://localhost:3000/customers?filter={"key": "customerCommonIdentifierString", "value": "Bob Frog Construction"}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/customers/{{customerId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get('customerId'), "Incorrect Id");
+  client.assert(response.body.customerCommonIdentifierString === "Bob Frog Construction", "Incorrect customer name");
+});
+%}
+
+###
+GET http://localhost:3000/inbound-tickets/DFWI
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned >= 1, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/inbound-tickets/{{ticketId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get("ticketId"), "Ticket Id doesn't match");
+  client.assert(response.body.materials.length === 0, "Materials Is not empty");
+  client.assert(response.body.status.value === 'INCOMPLETE', "Materials Is not empty");
+
+});
+%}
+
+###
+PUT http://localhost:3000/inbound-tickets/{{ticketId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+{
+  "id": "{{ticketId}}",
+  "customer": {
+    "id": "{{customerId}}",
+    "customerCommonIdentifierString": "Bob Frog Construction"
+  },
+  "status": {
+    "value": "SCALE_COMPLETE"
+  },
+  "scaleType": "Scale1",
+  "transportationInfo": {
+    "carrier": "Carrier1",
+    "carrierNumber": 1234,
+    "trailerNumber": 88889
+  },
+  "truckWeight": {
+    "gross": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "tare": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "net": {
+      "amount": 100,
+      "units": "lbs"
+    }
+  },
+  "loadWeight": {
+    "gross": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "tare": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "net": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "deductions": {
+      "amount": 10,
+      "units": "lbs"
+    }
+  },
+  "materials": [
+    {
+      "materialTypeId": "{{materialTypeId}}",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        },
+        "um": "lbs"
+      }
+    }
+  ]
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get("ticketId"), "Ticket Id doesn't match");
+  client.assert(response.body.status.value === 'SCALE_COMPLETE');
+  client.global.set("materialId", response.body.materials[0].id);
+  client.assert(response.body.materials[0].status.value === 'SWIP');
+
+});
+%}
+
+###
+GET http://localhost:3000/materials/{{materialId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get("materialId"), "Ticket Id doesn't match");
+  client.assert(response.body.status.value === 'SWIP');
+});
+%}
+
+###
+PUT http://localhost:3000/inbound-tickets/{{ticketId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+{
+  "id": "{{ticketId}}",
+  "customer": {
+    "id": "{{customerId}}",
+    "customerCommonIdentifierString": "Bob Frog Construction"
+  },
+  "status": {
+    "value": "PRICE_COMPLETE"
+  },
+  "scaleType": "Scale1",
+  "transportationInfo": {
+    "carrier": "Carrier1",
+    "carrierNumber": 1234,
+    "trailerNumber": 88889
+  },
+  "truckWeight": {
+    "gross": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "tare": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "net": {
+      "amount": 100,
+      "units": "lbs"
+    }
+  },
+  "loadWeight": {
+    "gross": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "tare": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "net": {
+      "amount": 100,
+      "units": "lbs"
+    },
+    "deductions": {
+      "amount": 10,
+      "units": "lbs"
+    }
+  },
+  "netValue": {
+    "amount": 1000,
+    "currency": "USD",
+    "precision": 0,
+    "priceString": "$1000"
+  },
+  "materials": [
+    {
+      "id": "{{materialId}}",
+      "materialTypeId": "{{materialTypeId}}",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$0.25/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 25
+        },
+        "netValue": {
+          "commonString": "$990.75",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 99075
+        }
+      }
+    }
+  ]
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get("ticketId"), "Ticket Id doesn't match");
+  client.assert(response.body.status.value === 'PRICE_COMPLETE');
+  client.assert(response.body.materials[0].status.value === 'WIP');
+});
+%}
+
+###
+GET http://localhost:3000/materials/{{materialId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.id === client.global.get("materialId"), "Ticket Id doesn't match");
+  client.assert(response.body.status.value === 'WIP');
+});
+%}
+
+###
+GET http://localhost:3000/inventory/finished-goods
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 3, "Incorrect number of results");
+   client.assert(response.body.totalWeight.amount === 3963, "Incorrect weight");
+  client.assert(response.body.totalCost.amount === 99075, "Incorrect Cost");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity/{{mainCommodityId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.wipWeight.amount === 3963, "Incorrect WIP weight");
+  client.assert(response.body.wipCost.amount === 99075, "Incorrect WIP Cost");
+  client.assert(response.body.finishedGoodWeight.amount === 0, "Incorrect WIP weight");
+  client.assert(response.body.finishedGoodCost.amount === 0, "Incorrect WIP Cost");
+});
+%}
+
+###
+POST http://localhost:3000/finished-goods
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+{
+ "finishedGood": {
+  "materialTypeId": "{{materialTypeId}}",
+  "tag": "test-tag",
+  "materials": [
+    "{{materialId}}"
+  ],
+  "type": "BALE",
+  "weight": {
+    "gross": 105,
+    "net": 100,
+    "tare": 5,
+    "units": "lbs"
+  },
+  "netValue": {
+    "amount": 25000,
+    "currency": "USD",
+    "precision": 2
+  },
+  "status": {
+    "value": "AVAILABLE",
+    "date": 1,
+    "userId": "9cd3bcd1-373b-438f-a757-7d576294ca42"
+  },
+  "statusHashKey": "AVAILABLE",
+  "dateRangeKey": 1,
+  "notes": [
+    {
+      "name": "Note on truck",
+      "value": "Bob tried to get water jugs in the truck.",
+      "userId": "fredf",
+      "date": "2021-9-12",
+      "internal": true
+    }
+  ]
+  }
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 201, "Response status is not 200");
+  client.global.set("fgid", response.body.id);
+});
+%}
+
+###
+GET http://localhost:3000/finished-goods/{{fgid}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+###
+GET http://localhost:3000/inventory/commodity/{{mainCommodityId}}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.wipWeight.amount === 3963, "Incorrect WIP weight");
+  client.assert(response.body.wipCost.amount === 99075, "Incorrect WIP Cost");
+  client.assert(response.body.finishedGoodWeight.amount === 100, "Incorrect WIP weight");
+  client.assert(response.body.finishedGoodCost.amount === 25000, "Incorrect WIP Cost");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 3, "Incorrect number of results");
+   client.assert(response.body.totalWeight.amount === 4063, "Incorrect weight");
+  client.assert(response.body.totalCost.amount === 124075, "Incorrect Cost");
+});
+%}
+
+###
+POST http://localhost:3000/packing-lists
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+{
+ "finishedGoodsIds": [ "{{fgid}}" ]
+}
+
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.global.set("plid", response.body.id);
+});
+%}
+
+###
+GET http://localhost:3000/inventory/packing-lists/meta
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/regrades/meta
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET http://localhost:3000/inventory/commodity/Copper
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}

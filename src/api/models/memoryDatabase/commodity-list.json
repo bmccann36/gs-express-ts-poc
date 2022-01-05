@@ -1,0 +1,41 @@
+{
+    "resultsReturned": 7,
+    "page": 1,
+    "data": [
+        {
+            "id": 1,
+            "name": "Aluminum",
+            "type": "NON_FERROUS"
+        },
+        {
+            "id": 2,
+            "name": "Brass",
+            "type": "NON_FERROUS"
+        },
+        {
+            "id": 3,
+            "name": "Copper",
+            "type": "NON_FERROUS"
+        },
+        {
+            "id": 4,
+            "name": "Lead",
+            "type": "FERROUS"
+        },
+        {
+            "id": 5,
+            "name": "Stainless Steel",
+            "type": "FERROUS"
+        },
+        {
+            "id": 6,
+            "name": "Steel",
+            "type": "FERROUS"
+        },
+        {
+            "id": 7,
+            "name": "Zinc",
+            "type": "NON_FERROUS"
+        }
+    ]
+}

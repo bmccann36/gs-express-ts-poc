@@ -1,0 +1,10 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "devDependencies": {
+    "jest": "^27.4.6"
+  },
+  "scripts": {
+    "invoke": "sam build && sam local invoke --event events/event.json --env-vars events/envars.json --docker-network local-util_default"
+  }
+}

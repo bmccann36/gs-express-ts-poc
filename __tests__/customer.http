@@ -1,0 +1,55 @@
+###
+GET http://localhost:3000/customers?pageSize=9&page=2
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: lopez
+Yard: houston
+Userid: dschrimpsher
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+
+###
+POST http://localhost:3000/finished-goods
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+{
+ "finishedGood": {
+  "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+  "tag": "test-tag",
+  "materials": [
+    "51d58fdd-5e53-4494-b28b-8bb01f244428"
+  ],
+  "type": "BALE",
+  "weight": {
+    "gross": 105,
+    "net": 100,
+    "tare": 5,
+    "units": "lbs"
+  },
+  "status": {
+    "value": "AVAILABLE",
+    "date": 1,
+    "userId": "af72d5c8-ef10-435a-9e5f-89b364fd245b"
+  },
+  "statusHashKey": "AVAILABLE",
+  "dateRangeKey": 1,
+  "notes": [
+    {
+      "name": "Note on truck",
+      "value": "Bob tried to get water jugs in the truck.",
+      "userId": "fredf",
+      "date": "2021-9-12",
+      "internal": true
+    }
+  ]
+ }
+}

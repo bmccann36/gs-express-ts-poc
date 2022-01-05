@@ -1,0 +1,627 @@
+{
+    "resultsReturned": 22,
+    "page": 1,
+    "finishedGoodsAvailable": {},
+    "finishedGoodsTotal": {},
+    "createdToday": 0,
+    "createdYesterday": 0,
+    "largestFinishedGoodMaterialByWeight": "",
+    "data": [
+        {
+            "id": "8474",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "1100 Scrap",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8473",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "#1 Copper Bare Bright",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8472",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "80/20 Brass Scrap",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8471",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "UBC",
+                    "weight": {
+                        "amount": 10000,
+                        "units": "lbs",
+                        "commonString": "10000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 10000,
+                "units": "lbs",
+                "commonString": "10000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8470",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Stainless Steel"
+            },
+            "material": [
+                {
+                    "name": "304 SS Solid",
+                    "weight": {
+                        "amount": 2000,
+                        "units": "lbs",
+                        "commonString": "2000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 2000,
+                "units": "lbs",
+                "commonString": "2000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8469",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "#2 Copper Wire and Tubing",
+                    "weight": {
+                        "amount": 7000,
+                        "units": "lbs",
+                        "commonString": "7000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 7000,
+                "units": "lbs",
+                "commonString": "7000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8468",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 3000,
+                        "units": "lbs",
+                        "commonString": "3000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 3000,
+                "units": "lbs",
+                "commonString": "3000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8467",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "70/30 Brass Scrap",
+                    "weight": {
+                        "amount": 6000,
+                        "units": "lbs",
+                        "commonString": "6000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 6000,
+                "units": "lbs",
+                "commonString": "6000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8466",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "Aluminum Radiators",
+                    "weight": {
+                        "amount": 18000,
+                        "units": "lbs",
+                        "commonString": "18000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 18000,
+                "units": "lbs",
+                "commonString": "18000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8465",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "Cu/Al Radiators",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8464",
+            "date": "9/3/2021",
+            "commodity": {
+                "name": "Stainless Steel"
+            },
+            "material": [
+                {
+                    "name": "201 SS",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/3/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8474",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "1100 Scrap",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8473",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "#1 Copper Bare Bright",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8472",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "80/20 Brass Scrap",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8471",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "UBC",
+                    "weight": {
+                        "amount": 10000,
+                        "units": "lbs",
+                        "commonString": "10000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 10000,
+                "units": "lbs",
+                "commonString": "10000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8470",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Stainless Steel"
+            },
+            "material": [
+                {
+                    "name": "304 SS Solid",
+                    "weight": {
+                        "amount": 2000,
+                        "units": "lbs",
+                        "commonString": "2000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 2000,
+                "units": "lbs",
+                "commonString": "2000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8469",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "#2 Copper Wire and Tubing",
+                    "weight": {
+                        "amount": 7000,
+                        "units": "lbs",
+                        "commonString": "7000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 7000,
+                "units": "lbs",
+                "commonString": "7000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8468",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 3000,
+                        "units": "lbs",
+                        "commonString": "3000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 3000,
+                "units": "lbs",
+                "commonString": "3000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8467",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "70/30 Brass Scrap",
+                    "weight": {
+                        "amount": 6000,
+                        "units": "lbs",
+                        "commonString": "6000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 6000,
+                "units": "lbs",
+                "commonString": "6000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8466",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "Aluminum Radiators",
+                    "weight": {
+                        "amount": 18000,
+                        "units": "lbs",
+                        "commonString": "18000 lbs"
+                    }
+                }
+            ],
+            "type": "Box",
+            "netWeight": {
+                "amount": 18000,
+                "units": "lbs",
+                "commonString": "18000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8465",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "Cu/Al Radiators",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "type": "Gaylord",
+            "netWeight": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "8464",
+            "date": "9/3/2021",
+            "commodity": {
+                "name": "Stainless Steel"
+            },
+            "material": [
+                {
+                    "name": "201 SS",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "type": "Bale",
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Available",
+                "date": "9/3/2021",
+                "userId": "mockuser"
+            }
+        }
+    ]
+}

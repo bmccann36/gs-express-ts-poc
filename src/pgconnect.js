@@ -3,8 +3,7 @@ const { Client } = require('pg')
 
 module.exports = async function () {
 
-  console.log("password ", process.env.DB_PASSWORD);
-  console.log("host ", process.env.DB_HOST);
+  console.log("host: ", process.env.DB_HOST);
 
   const client = new Client({
     user: process.env.DB_USER,

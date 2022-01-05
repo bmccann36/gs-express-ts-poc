@@ -1,0 +1,112 @@
+{
+  "resultsReturned": 3,
+  "page": 1,
+  "packingListsAvailable": {
+    "count": 100,
+    "weight": {
+      "amount": 50000,
+      "units": "lbs"
+    }
+  },
+  "packingListsTotal": {
+    "count": 102,
+    "weight": {
+      "amount": 60000,
+      "units": "lbs"
+    }
+  },
+  "createdToday": 105,
+  "createdYesterday": 98,
+  "largestMaterialByWeight": "Aluminum 01",
+  "data": [
+    {
+      "id": "10-1001",
+      "date": "2021-05-12",
+      "commodity": {
+        "id": "1234",
+        "name": "Aluminum"
+      },
+      "material": [
+        {
+          "id": "1234",
+          "name": "Aluminum 01",
+          "weight": {
+            "amount": 1800,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1800,
+        "units": "lbs"
+      },
+      "status": {
+        "value": "READY",
+        "date": "2021-05-12",
+        "userId": "test-user-1"
+      }
+    },
+    {
+      "id": "10-1002",
+      "date": "2021-05-11",
+      "commodity": {
+        "id": "5678",
+        "name": "Copper"
+      },
+      "material": [
+        {
+          "id": "4567",
+          "name": "Insulated Copper #1",
+          "weight": {
+            "amount": 1700,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1700,
+        "units": "lbs"
+      },
+      "status": {
+        "value": "READY",
+        "date": "2021-05-11",
+        "userId": "test-user-1"
+      }
+    },
+    {
+      "id": "10-1003",
+      "date": "2021-05-08",
+      "commodity": {
+        "id": "5678",
+        "name": "Copper"
+      },
+      "material": [
+        {
+          "id": "4567",
+          "name": "Insulated Copper #1",
+          "weight": {
+            "amount": 1000,
+            "unit": "lbs"
+          }
+        },
+        {
+          "id": "8901",
+          "name": "Copper #2",
+          "weight": {
+            "amount": 600,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1600,
+        "units": "lbs"
+      },
+      "status": {
+        "value": "SHIPPED",
+        "date": "2021-05-11",
+        "userId": "test-user-1"
+      }
+    }
+  ]
+}

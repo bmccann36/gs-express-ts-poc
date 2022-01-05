@@ -1,0 +1,1019 @@
+{
+  "resultsReturned": 22,
+  "page": 1,
+  "Items": [
+    {
+      "id": "126",
+      "ticketNumber": "126",
+      "scaleType": "Scale1",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Hyatt Group",
+        "companyName": "Hyatt Group"
+      },
+      "transportationInfo": {
+        "carrier": "WXT",
+        "carrierNumber": 84931,
+        "trialerNumber": 123
+      },
+      "truckWeight": {
+        "gross": {
+          "amount": 13973,
+          "units": "lbs",
+          "commonString": "13973 lbs"
+        },
+        "tare": {
+          "amount": 10000,
+          "units": "lbs",
+          "commonString": "10000 lbs"
+        },
+        "net": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        }
+      },
+      "loadWeight": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": {
+          "amount": 0,
+          "units": "lbs",
+          "commonString": "0 lbs"
+        },
+        "net": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        }
+      },
+      "materials": [
+        {
+          "code": "ALRADFE",
+          "gross": {
+            "amount": 3973,
+            "units": "lbs",
+            "commonString": "3973 lbs"
+          },
+          "tare": {
+            "amount": 10,
+            "units": "lbs",
+            "commonString": "10 lbs"
+          },
+          "deductions": [],
+          "netWeight": {
+            "amount": 3963,
+            "units": "lbs",
+            "commonString": "3963 lbs"
+          },
+          "um": "lbs",
+          "netPrice": {
+            "commonString": "$0.25/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 25
+          },
+          "netValue": {
+            "commonString": "$990.75",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 99075
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 3963,
+        "units": "lbs",
+        "commonString": "3963 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.25/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 25
+      },
+      "netValue": {
+        "commonString": "$990.75",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 99075
+      },
+      "status": {
+        "value": "INCOMPLETE",
+        "date": "9/9/2021",
+        "userId": "mockuser"
+      },
+      "statusHistory": [{
+        "value": "Incomplete",
+        "date": "9/9/2021",
+        "userId": "mockuser"
+      }],
+      "notes": [
+        {
+          "name": "Note on truck",
+          "value": "Bob tried to get water jugs in the truck.",
+          "userId": "fredf",
+          "date": "2021-9-12",
+          "internal": true
+        },
+        {
+          "name": "Price Change",
+          "value": "Janet told me to give them a discount of $0.05",
+          "userId": "fredf",
+          "date": "2021-9-13",
+          "internal": false
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "ticketNumber": "125",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Schiller-Dickinson",
+        "companyName": "Schiller-Dickinson"
+      },
+      "truckNumber": "64592",
+      "material": [
+        {
+          "code": "Multiple",
+          "weight": {
+            "amount": 5619,
+            "units": "lbs",
+            "commonString": "5619 lbs"
+          },
+          "price": {
+            "commonString": "$0.23/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 23
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 5619,
+        "units": "lbs",
+        "commonString": "5619 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.23/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 23
+      },
+      "status": {
+        "value": "Incomplete",
+        "date": "9/9/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "124",
+      "ticketNumber": "124",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Dach, Lakin and Mayert",
+        "companyName": "Dach, Lakin and Mayert"
+      },
+      "truckNumber": "46975",
+      "material": [
+        {
+          "code": "CUSTARTERS",
+          "weight": {
+            "amount": 4444,
+            "units": "lbs",
+            "commonString": "4444 lbs"
+          },
+          "price": {
+            "commonString": "$0.24/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 24
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 4444,
+        "units": "lbs",
+        "commonString": "4444 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.24/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 24
+      },
+      "status": {
+        "value": "Incomplete",
+        "date": "9/9/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "123",
+      "ticketNumber": "123",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Predovic, White and Stroman",
+        "companyName": "Predovic, White and Stroman"
+      },
+      "truckNumber": "70361",
+      "material": [
+        {
+          "code": "CUMOTOR",
+          "weight": {
+            "amount": 3157,
+            "units": "lbs",
+            "commonString": "3157 lbs"
+          },
+          "price": {
+            "commonString": "$0.27/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 27
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 3157,
+        "units": "lbs",
+        "commonString": "3157 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.27/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 27
+      },
+      "status": {
+        "value": "Scale Complete",
+        "date": "9/8/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "120",
+      "ticketNumber": "120",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "DuBuque-Lynch",
+        "companyName": "DuBuque-Lynch"
+      },
+      "truckNumber": "49701",
+      "material": [
+        {
+          "code": "Multiple",
+          "weight": {
+            "amount": 1160,
+            "units": "lbs",
+            "commonString": "1160 lbs"
+          },
+          "price": {
+            "commonString": "$1.82/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 182
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1160,
+        "units": "lbs",
+        "commonString": "1160 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.82/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 182
+      },
+      "status": {
+        "value": "Scale Complete",
+        "date": "9/8/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "118",
+      "ticketNumber": "118",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Leffler Inc",
+        "companyName": "Leffler Inc"
+      },
+      "truckNumber": "99690",
+      "material": [
+        {
+          "code": "ALSHEET",
+          "weight": {
+            "amount": 9821,
+            "units": "lbs",
+            "commonString": "9821 lbs"
+          },
+          "price": {
+            "commonString": "$0.47/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 47
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 9821,
+        "units": "lbs",
+        "commonString": "9821 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.47/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 47
+      },
+      "status": {
+        "value": "Scale Complete",
+        "date": "9/8/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "117",
+      "ticketNumber": "117",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Ullrich, Becker and Bayer",
+        "companyName": "Ullrich, Becker and Bayer"
+      },
+      "truckNumber": "58346",
+      "material": [
+        {
+          "code": "AL6061EXT",
+          "weight": {
+            "amount": 6405,
+            "units": "lbs",
+            "commonString": "6405 lbs"
+          },
+          "price": {
+            "commonString": "$0.46/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 46
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 6405,
+        "units": "lbs",
+        "commonString": "6405 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.46/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 46
+      },
+      "status": {
+        "value": "Scale Complete",
+        "date": "9/7/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "116",
+      "ticketNumber": "116",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Murray Group",
+        "companyName": "Murray Group"
+      },
+      "truckNumber": "42583",
+      "material": [
+        {
+          "code": "Multiple",
+          "weight": {
+            "amount": 8601,
+            "units": "lbs",
+            "commonString": "8601 lbs"
+          },
+          "price": {
+            "commonString": "$1.95/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 195
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 8601,
+        "units": "lbs",
+        "commonString": "8601 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.95/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 195
+      },
+      "status": {
+        "value": "Price Complete",
+        "date": "9/7/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "115",
+      "ticketNumber": "115",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Homenick, Cronin and Swaniawski",
+        "companyName": "Homenick, Cronin and Swaniawski"
+      },
+      "truckNumber": "31456",
+      "material": [
+        {
+          "code": "CUXMAS",
+          "weight": {
+            "amount": 8387,
+            "units": "lbs",
+            "commonString": "8387 lbs"
+          },
+          "price": {
+            "commonString": "$0.23/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 23
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 8387,
+        "units": "lbs",
+        "commonString": "8387 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.23/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 23
+      },
+      "status": {
+        "value": "Price Complete",
+        "date": "9/7/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "113",
+      "ticketNumber": "113",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Jenkins, Russel and Bartoletti",
+        "companyName": "Jenkins, Russel and Bartoletti"
+      },
+      "truckNumber": "53538",
+      "material": [
+        {
+          "code": "Multiple",
+          "weight": {
+            "amount": 1493,
+            "units": "lbs",
+            "commonString": "1493 lbs"
+          },
+          "price": {
+            "commonString": "$0.31/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 31
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1493,
+        "units": "lbs",
+        "commonString": "1493 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.31/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 31
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/6/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "112",
+      "ticketNumber": "112",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Nader LLC",
+        "companyName": "Nader LLC"
+      },
+      "truckNumber": "34435",
+      "material": [
+        {
+          "code": "AL5052",
+          "weight": {
+            "amount": 3147,
+            "units": "lbs",
+            "commonString": "3147 lbs"
+          },
+          "price": {
+            "commonString": "$0.73/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 73
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 3147,
+        "units": "lbs",
+        "commonString": "3147 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.73/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 73
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/6/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "111",
+      "ticketNumber": "111",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Rutherford Inc",
+        "companyName": "Rutherford Inc"
+      },
+      "truckNumber": "31775",
+      "material": [
+        {
+          "code": "ALTRAN",
+          "weight": {
+            "amount": 4518,
+            "units": "lbs",
+            "commonString": "4518 lbs"
+          },
+          "price": {
+            "commonString": "$0.13/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 13
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 4518,
+        "units": "lbs",
+        "commonString": "4518 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.13/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 13
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/6/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "110",
+      "ticketNumber": "110",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Hegmann-Rowe",
+        "companyName": "Hegmann-Rowe"
+      },
+      "truckNumber": "80238",
+      "material": [
+        {
+          "code": "SS201",
+          "weight": {
+            "amount": 1633,
+            "units": "lbs",
+            "commonString": "1633 lbs"
+          },
+          "price": {
+            "commonString": "$0.23/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 23
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1633,
+        "units": "lbs",
+        "commonString": "1633 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.23/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 23
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/5/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "109",
+      "ticketNumber": "109",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Kessler, Schulist and Schiller",
+        "companyName": "Kessler, Schulist and Schiller"
+      },
+      "truckNumber": "99445",
+      "material": [
+        {
+          "code": "CU3LIGHT",
+          "weight": {
+            "amount": 2997,
+            "units": "lbs",
+            "commonString": "2997 lbs"
+          },
+          "price": {
+            "commonString": "$2.72/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 272
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 2997,
+        "units": "lbs",
+        "commonString": "2997 lbs"
+      },
+      "netPrice": {
+        "commonString": "$2.72/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 272
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/5/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "108",
+      "ticketNumber": "108",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Mante, Parker and Rolfson",
+        "companyName": "Mante, Parker and Rolfson"
+      },
+      "truckNumber": "59680",
+      "material": [
+        {
+          "code": "BRRADFE",
+          "weight": {
+            "amount": 7731,
+            "units": "lbs",
+            "commonString": "7731 lbs"
+          },
+          "price": {
+            "commonString": "$0.67/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 67
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 7731,
+        "units": "lbs",
+        "commonString": "7731 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.67/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 67
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/5/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "107",
+      "ticketNumber": "107",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Ward Inc",
+        "companyName": "Ward Inc"
+      },
+      "truckNumber": "88055",
+      "material": [
+        {
+          "code": "CUROMEX",
+          "weight": {
+            "amount": 9494,
+            "units": "lbs",
+            "commonString": "9494 lbs"
+          },
+          "price": {
+            "commonString": "$1.49/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 149
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 9494,
+        "units": "lbs",
+        "commonString": "9494 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.49/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 149
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/4/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "106",
+      "ticketNumber": "106",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Legros, Herman and Rodriguez",
+        "companyName": "Legros, Herman and Rodriguez"
+      },
+      "truckNumber": "25721",
+      "material": [
+        {
+          "code": "CUCORES",
+          "weight": {
+            "amount": 5091,
+            "units": "lbs",
+            "commonString": "5091 lbs"
+          },
+          "price": {
+            "commonString": "$1.34/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 134
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 5091,
+        "units": "lbs",
+        "commonString": "5091 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.34/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 134
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/4/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "105",
+      "ticketNumber": "105",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Larson Inc",
+        "companyName": "Larson Inc"
+      },
+      "truckNumber": "46526",
+      "material": [
+        {
+          "code": "ALUBC",
+          "weight": {
+            "amount": 2439,
+            "units": "lbs",
+            "commonString": "2439 lbs"
+          },
+          "price": {
+            "commonString": "$0.52/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 52
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 2439,
+        "units": "lbs",
+        "commonString": "2439 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.52/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 52
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/4/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "103",
+      "ticketNumber": "103",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Hamill-Lind",
+        "companyName": "Hamill-Lind"
+      },
+      "truckNumber": "23334",
+      "material": [
+        {
+          "code": "CURAD",
+          "weight": {
+            "amount": 1279,
+            "units": "lbs",
+            "commonString": "1279 lbs"
+          },
+          "price": {
+            "commonString": "$1.70/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 170
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1279,
+        "units": "lbs",
+        "commonString": "1279 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.70/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 170
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/3/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "102",
+      "ticketNumber": "102",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Kovacek Group",
+        "companyName": "Kovacek Group"
+      },
+      "truckNumber": "59320",
+      "material": [
+        {
+          "code": "CU2INS50",
+          "weight": {
+            "amount": 3231,
+            "units": "lbs",
+            "commonString": "3231 lbs"
+          },
+          "price": {
+            "commonString": "$1.02/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 102
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 3231,
+        "units": "lbs",
+        "commonString": "3231 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.02/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 102
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/3/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "101",
+      "ticketNumber": "101",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Wisoky LLC",
+        "companyName": "Wisoky LLC"
+      },
+      "truckNumber": "84778",
+      "material": [
+        {
+          "code": "OLDZINC",
+          "weight": {
+            "amount": 1171,
+            "units": "lbs",
+            "commonString": "1171 lbs"
+          },
+          "price": {
+            "commonString": "$0.70/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 70
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 1171,
+        "units": "lbs",
+        "commonString": "1171 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.70/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 70
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/3/2021",
+        "userId": "mockuser"
+      }
+    },
+    {
+      "id": "100",
+      "ticketNumber": "100",
+      "customer": {
+        "id": 500,
+        "customerCommonIdentifierString": "Schiller Group",
+        "companyName": "Schiller Group"
+      },
+      "truckNumber": "16251",
+      "material": [
+        {
+          "code": "BRYELLOW",
+          "weight": {
+            "amount": 5666,
+            "units": "lbs",
+            "commonString": "5666 lbs"
+          },
+          "price": {
+            "commonString": "$1.68/lb",
+            "currency": "usd",
+            "precision": 2,
+            "amount": 168
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 5666,
+        "units": "lbs",
+        "commonString": "5666 lbs"
+      },
+      "netPrice": {
+        "commonString": "$1.68/lb",
+        "currency": "usd",
+        "precision": 2,
+        "amount": 168
+      },
+      "status": {
+        "value": "Paid",
+        "date": "9/2/2021",
+        "userId": "mockuser"
+      }
+    }
+  ]
+}

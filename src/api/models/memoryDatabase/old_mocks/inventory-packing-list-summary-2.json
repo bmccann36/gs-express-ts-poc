@@ -1,0 +1,308 @@
+{
+    "resultsReturned": 11,
+    "page": 1,
+    "packingListsAvailable": {},
+    "packingListsTotal": {},
+    "createdToday": 0,
+    "createdYesterday": 0,
+    "largestFinishedGoodMaterialByWeight": "",
+    "data": [
+        {
+            "id": "294",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 2500,
+                        "units": "lbs",
+                        "commonString": "2500 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 2500,
+                "units": "lbs",
+                "commonString": "2500 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "293",
+            "date": "9/8/2021",
+            "commodity": {
+                "name": "Zinc"
+            },
+            "material": [
+                {
+                    "name": "New Zinc Die Cast",
+                    "weight": {
+                        "amount": 15000,
+                        "units": "lbs",
+                        "commonString": "15000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/8/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "292",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Steel"
+            },
+            "material": [
+                {
+                    "name": "Shredded Auto Scrap",
+                    "weight": {
+                        "amount": 4000,
+                        "units": "lbs",
+                        "commonString": "4000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 4000,
+                "units": "lbs",
+                "commonString": "4000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "291",
+            "date": "9/7/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "80/20 Brass Scrap",
+                    "weight": {
+                        "amount": 10000,
+                        "units": "lbs",
+                        "commonString": "10000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 10000,
+                "units": "lbs",
+                "commonString": "10000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/7/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "290",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "Al/Cu Radiators /Fe",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 5000,
+                "units": "lbs",
+                "commonString": "5000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "289",
+            "date": "9/6/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "Brass Radiator Ends",
+                    "weight": {
+                        "amount": 3500,
+                        "units": "lbs",
+                        "commonString": "3500 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 3500,
+                "units": "lbs",
+                "commonString": "3500 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/6/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "288",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Copper"
+            },
+            "material": [
+                {
+                    "name": "#2 Insulated Copper Wire 50% Recovery",
+                    "weight": {
+                        "amount": 18000,
+                        "units": "lbs",
+                        "commonString": "18000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 18000,
+                "units": "lbs",
+                "commonString": "18000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "287",
+            "date": "9/5/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "85/15 Brass Scrap",
+                    "weight": {
+                        "amount": 50000,
+                        "units": "lbs",
+                        "commonString": "50000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 50000,
+                "units": "lbs",
+                "commonString": "50000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/5/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "286",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Brass"
+            },
+            "material": [
+                {
+                    "name": "Yellow Brass",
+                    "weight": {
+                        "amount": 40000,
+                        "units": "lbs",
+                        "commonString": "40000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 40000,
+                "units": "lbs",
+                "commonString": "40000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "285",
+            "date": "9/4/2021",
+            "commodity": {
+                "name": "Aluminum"
+            },
+            "material": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 4000,
+                        "units": "lbs",
+                        "commonString": "4000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 4000,
+                "units": "lbs",
+                "commonString": "4000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/4/2021",
+                "userId": "mockuser"
+            }
+        },
+        {
+            "id": "284",
+            "date": "9/3/2021",
+            "commodity": {
+                "name": "Stainless Steel"
+            },
+            "material": [
+                {
+                    "name": "201 SS",
+                    "weight": {
+                        "amount": 14000,
+                        "units": "lbs",
+                        "commonString": "14000 lbs"
+                    }
+                }
+            ],
+            "netWeight": {
+                "amount": 14000,
+                "units": "lbs",
+                "commonString": "14000 lbs"
+            },
+            "status": {
+                "value": "Ready",
+                "date": "9/3/2021",
+                "userId": "mockuser"
+            }
+        }
+    ]
+}

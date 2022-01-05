@@ -1,0 +1,746 @@
+{
+    "resultsReturned": 74,
+    "page": 1,
+    "data": [
+        {
+            "id": 100,
+            "code": "AL1100",
+            "commonName": "1100 Scrap",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 101,
+            "code": "AL3003",
+            "commonName": "3003 Scrap",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 102,
+            "code": "AL356",
+            "commonName": "356 Aluminum Wheels (Clean)",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 103,
+            "code": "AL5052",
+            "commonName": "5052 Scrap",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 104,
+            "code": "AL6061EXT",
+            "commonName": "6061 Extrusions",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 105,
+            "code": "AL6063EXT",
+            "commonName": "6063 Extrusions",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 106,
+            "code": "AL6063FEEXT",
+            "commonName": "6063 Extrusions/Fe",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 107,
+            "code": "ALCURAD",
+            "commonName": "Al/Cu Radiators",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 108,
+            "code": "ALCURADFE",
+            "commonName": "Al/Cu Radiators /Fe",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 109,
+            "code": "ALRAD",
+            "commonName": "Aluminum Radiators",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 110,
+            "code": "ALRADFE",
+            "commonName": "Aluminum Radiators /Fe",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 111,
+            "code": "ALTRAN",
+            "commonName": "Aluminum Transformers",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 112,
+            "code": "ALBR50",
+            "commonName": "Breakage 50% Recovery",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 113,
+            "code": "ALWHEEL",
+            "commonName": "Chrome Wheels",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 114,
+            "code": "ALWIRE",
+            "commonName": "E.C. Aluminum Wire",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 115,
+            "code": "ALLITHO",
+            "commonName": "Litho Sheets",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 116,
+            "code": "ALMIXED",
+            "commonName": "Mixed Aluminum Turnings",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 117,
+            "code": "ALCLIP",
+            "commonName": "Aluminum Clips",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 118,
+            "code": "ALCAST",
+            "commonName": "Old Cast",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 119,
+            "code": "ALSHEET",
+            "commonName": "Old Sheet",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 120,
+            "code": "ALSIDE",
+            "commonName": "Painted Siding",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 121,
+            "code": "ALUBC",
+            "commonName": "UBC",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 122,
+            "code": "ZORBA",
+            "commonName": "Zorba 90% NF",
+            "commodity": {
+                "id": 1,
+                "name": "Aluminum",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 123,
+            "code": "BR70",
+            "commonName": "70/30 Brass Scrap",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 124,
+            "code": "BR80",
+            "commonName": "80/20 Brass Scrap",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 125,
+            "code": "BR85",
+            "commonName": "85/15 Brass Scrap",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 126,
+            "code": "BRRAD",
+            "commonName": "Brass Radiator",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 127,
+            "code": "BRRADFE",
+            "commonName": "Brass Radiator /Fe",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 128,
+            "code": "BRRADEND",
+            "commonName": "Brass Radiator Ends",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 129,
+            "code": "BRRED",
+            "commonName": "Red Brass",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 130,
+            "code": "BRROD",
+            "commonName": "Rod Borings",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 131,
+            "code": "BRYELLOW",
+            "commonName": "Yellow Brass",
+            "commodity": {
+                "id": 2,
+                "name": "Brass",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 132,
+            "code": "CUALT",
+            "commonName": "Alternator",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 133,
+            "code": "CU1BB",
+            "commonName": "#1 Copper Bare Bright",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 134,
+            "code": "CU1WIRE",
+            "commonName": "#1 Copper Wire and Tubing",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 135,
+            "code": "CU1INS85",
+            "commonName": "#1 Insulated Copper Wire 85% Recovery",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 136,
+            "code": "CU2WIRE",
+            "commonName": "#2 Copper Wire and Tubing",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 137,
+            "code": "CU2INS50",
+            "commonName": "#2 Insulated Copper Wire 50% Recovery",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 138,
+            "code": "CU3LIGHT",
+            "commonName": "#3 Copper - Light Copper",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 139,
+            "code": "CURAD",
+            "commonName": "Copper Radiators",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 140,
+            "code": "CUTRANS",
+            "commonName": "Copper Transformer Scrap",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 141,
+            "code": "CUYOKES",
+            "commonName": "Cu Yokes",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 142,
+            "code": "CUALRADEND",
+            "commonName": "Cu/Al Radiator Ends",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 143,
+            "code": "CUALRAD",
+            "commonName": "Cu/Al Radiators",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 144,
+            "code": "CUALRADFE",
+            "commonName": "Cu/Al Radiators /Fe",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 145,
+            "code": "CUHARNESS",
+            "commonName": "Harness Wire 35% Recovery",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 146,
+            "code": "CUCORES",
+            "commonName": "Heater Cores",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 147,
+            "code": "CUROMEX",
+            "commonName": "Romex\ufffd Wire",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 148,
+            "code": "CUMOTOR",
+            "commonName": "Scrap Electric Motors",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 149,
+            "code": "CUSEALED",
+            "commonName": "Sealed Units",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 150,
+            "code": "CUSTARTERS",
+            "commonName": "Starters",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 151,
+            "code": "CUXMAS",
+            "commonName": "Xmas Lights",
+            "commodity": {
+                "id": 3,
+                "name": "Copper",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 152,
+            "code": "PBWHEEL",
+            "commonName": "Lead Wheel Weights",
+            "commodity": {
+                "id": 4,
+                "name": "Lead",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 153,
+            "code": "PBSOLID",
+            "commonName": "Lead-Solid Lead",
+            "commodity": {
+                "id": 4,
+                "name": "Lead",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 154,
+            "code": "PBFIRED",
+            "commonName": "Range Lead-Bullets that have been fired",
+            "commodity": {
+                "id": 4,
+                "name": "Lead",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 155,
+            "code": "PBAUTOBAT",
+            "commonName": "Scrap Auto Batteries",
+            "commodity": {
+                "id": 4,
+                "name": "Lead",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 156,
+            "code": "PBSOFT",
+            "commonName": "Soft Lead",
+            "commodity": {
+                "id": 4,
+                "name": "Lead",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 157,
+            "code": "SS201",
+            "commonName": "201 SS",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 158,
+            "code": "SS301",
+            "commonName": "301 SS",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 159,
+            "code": "SS304SOLID",
+            "commonName": "304 SS Solid",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 160,
+            "code": "SS304TURN",
+            "commonName": "304 SS Turning",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 161,
+            "code": "SS309",
+            "commonName": "309 SS",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 162,
+            "code": "SS310",
+            "commonName": "310 SS",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 163,
+            "code": "SS316",
+            "commonName": "316 SS Solid",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 164,
+            "code": "SS330",
+            "commonName": "330 SS",
+            "commodity": {
+                "id": 5,
+                "name": "Stainless Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 165,
+            "code": "1BUNDLE",
+            "commonName": "#1 Bundle",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 166,
+            "code": "1BUSHEL",
+            "commonName": "#1 Busheling",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 167,
+            "code": "1HMS",
+            "commonName": "#1 HMS",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 168,
+            "code": "HMS80",
+            "commonName": "HMS 80/20",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 169,
+            "code": "STEELSHEET",
+            "commonName": "Sheet Metal",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 170,
+            "code": "STEELSHRED",
+            "commonName": "Shredded Auto Scrap",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 171,
+            "code": "STEELSTRUC",
+            "commonName": "Structural Steel",
+            "commodity": {
+                "id": 6,
+                "name": "Steel",
+                "type": "FERROUS"
+            }
+        },
+        {
+            "id": 172,
+            "code": "NEWZINC",
+            "commonName": "New Zinc Die Cast",
+            "commodity": {
+                "id": 7,
+                "name": "Zinc",
+                "type": "NON_FERROUS"
+            }
+        },
+        {
+            "id": 173,
+            "code": "OLDZINC",
+            "commonName": "Old Zinc Die Cast",
+            "commodity": {
+                "id": 7,
+                "name": "Zinc",
+                "type": "NON_FERROUS"
+            }
+        }
+    ]
+}

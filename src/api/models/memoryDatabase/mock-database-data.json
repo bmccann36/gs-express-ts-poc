@@ -1,0 +1,581 @@
+{
+  "hulk_smash-yard1-PriceSheets": [],
+  "hulk_smash-yard1-PriceEntries": [],
+  "hulk_smash-yard1-Benchmarks": [],
+  "NewResource": [],
+  "hulk_smash-yard1-Commodities": [
+    {
+      "id": "7307e828-9953-4405-b0ec-188aa4915772",
+      "name": "Copper",
+      "type": "NON_FERROUS",
+      "archive": false
+    },
+    {
+      "id": "7307e828-9953-4405-b0ec-188aa4915773",
+      "name": "Steel",
+      "type": "FERROUS",
+      "archive": false
+    },
+    {
+      "id": "4fb99630-3eba-4d10-9b7b-33dc85828c37",
+      "name": "Waste Product",
+      "type": "WASTE",
+      "archive": false
+    }
+  ],
+  "hulk_smash-yard1-MaterialTypes": [
+    {
+      "id": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "code": "61",
+      "commonName": "#1 Copper",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "archive": false
+    },
+    {
+      "id": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+      "code": "62",
+      "commonName": "#2 Copper",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "archive": false
+    },
+    {
+      "id": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37793",
+      "code": "ST0001",
+      "commonName": "Steel Bearings",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915773",
+      "archive": false
+    },
+    {
+      "id": "3f063b1f-67e6-4e6a-8347-b74617b6ad29",
+      "code": "101",
+      "commonName": "Grease",
+      "commodityId": "4fb99630-3eba-4d10-9b7b-33dc85828c37",
+      "archive": false
+    }
+  ],
+  "hulk_smash-yard1-InboundTickets": [
+    {
+      "id": "4c0f5271-9222-47f3-a4b1-f14eb3f1e5a3",
+      "ticketNumber": "126",
+      "scaleType": "Scale1",
+      "customer": "12ABC",
+      "transportationInfo": {
+        "carrier": "WXT",
+        "carrierNumber": 84931,
+        "trailerNumber": 123
+      },
+      "truckWeight": {
+        "gross": {
+          "amount": 13973,
+          "units": "lbs",
+          "commonString": "13973 lbs"
+        },
+        "tare": {
+          "amount": 10000,
+          "units": "lbs",
+          "commonString": "10000 lbs"
+        },
+        "net": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        }
+      },
+      "loadWeight": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": {
+          "amount": 0,
+          "units": "lbs",
+          "commonString": "0 lbs"
+        },
+        "net": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        }
+      },
+      "materials": [
+        "7a6ce777-2cdb-4587-bcc1-c5af61402182"
+      ],
+      "netWeight": {
+        "amount": 3963,
+        "units": "lbs",
+        "commonString": "3963 lbs"
+      },
+      "netPrice": {
+        "commonString": "$0.25/lb",
+        "currency": "USD",
+        "precision": 2,
+        "amount": 25
+      },
+      "netValue": {
+        "commonString": "$990.75",
+        "currency": "USD",
+        "precision": 2,
+        "amount": 99075
+      },
+      "status": {
+        "value": "INCOMPLETE",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "Incomplete",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "notes": [
+        {
+          "name": "Note on truck",
+          "value": "Bob tried to get water jugs in the truck.",
+          "userId": "fredf",
+          "date": "2021-9-12",
+          "internal": true
+        },
+        {
+          "name": "Price Change",
+          "value": "Janet told me to give them a discount of $0.05",
+          "userId": "fredf",
+          "date": "2021-9-13",
+          "internal": false
+        }
+      ]
+    }
+  ],
+  "User": {
+    "id": "fred.furr",
+    "hash": "5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03",
+    "company": {
+      "id": "company_id_1",
+      "name": "Metallica"
+    },
+    "contact": {
+      "id": "contact_id_1",
+      "first_name": "Fred",
+      "middle_name": "R",
+      "last_name": "Furr",
+      "phone": "555-555-5555",
+      "email": "fred.furr@metallica.com",
+      "location": {
+        "id": "location_id_1",
+        "street": "123 Cherry St",
+        "suite": "N41",
+        "city": "Anytown",
+        "state": "TX",
+        "zip": "12345",
+        "zip_plus_4": "6789"
+      }
+    },
+    "yards": [
+      {
+        "yard_id": "yard_id_1",
+        "access": true,
+        "role": [
+          "scale_operator"
+        ]
+      }
+    ]
+  },
+  "Yard": {
+    "id": "7a6ce777-2cdb-4587-bcc1-c5af61402181"
+  },
+  "hulk_smash-yard1-Customers": [
+    {
+      "id": "123",
+      "customerCommonIdentifierString": "Bob'scrap"
+    },
+    {
+      "id": "12ABC",
+      "customerCommonIdentifierString": "Bob Frog Scrap"
+    }
+  ],
+  "hulk_smash-yard1-Materials": [
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402182",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket1",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$1.95/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 195
+        },
+        "netValue": {
+          "commonString": "$7201.35",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 720135
+        }
+      },
+      "finishedGoodId": "",
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402183",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket2",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 2000,
+          "units": "lbs",
+          "commonString": "2000 lbs"
+        },
+        "tare": {
+          "amount": 125,
+          "units": "lbs",
+          "commonString": "125 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 1875,
+          "units": "lbs",
+          "commonString": "1875 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$2.25/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 225
+        },
+        "netValue": {
+          "commonString": "$4210.75",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 421075
+        }
+      },
+      "finishedGoodId": "",
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402183",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket2",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 1000,
+          "units": "lbs",
+          "commonString": "2000 lbs"
+        },
+        "tare": {
+          "amount": 125,
+          "units": "lbs",
+          "commonString": "125 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 1875,
+          "units": "lbs",
+          "commonString": "1875 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$1.85/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 225
+        },
+        "netValue": {
+          "commonString": "$3460.75",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 346075
+        }
+      },
+      "finishedGoodId": "",
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402184",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37793",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915773",
+      "inboundTicketId": "ticket3",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 100,
+          "units": "NT",
+          "commonString": "100 NT"
+        },
+        "tare": {
+          "amount": 1,
+          "units": "NT",
+          "commonString": "1 NT"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 99,
+          "units": "NT",
+          "commonString": "99 NT"
+        },
+        "um": "NT",
+        "netPrice": {
+          "commonString": "$10.00/NT",
+          "currency": "USD",
+          "precision": 0,
+          "amount": 10
+        },
+        "netValue": {
+          "commonString": "$990.00",
+          "currency": "USD",
+          "precision": 0,
+          "amount": 990
+        }
+      },
+      "finishedGoodId": "",
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    }
+  ],
+  "hulk_smash-yard1-FinishedGoods": [
+    {
+      "statusHashKey": "AVA",
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "materials": [
+        "c9f8bfdd-37ee-4054-bb3f-28055870e1df"
+      ],
+      "type": "BALE",
+      "weight": {
+        "gross": 1250,
+        "net": 1000,
+        "tare": 250,
+        "units": "lbs"
+      },
+      "averageCost": {
+        "amount": 200,
+        "currency": "USD",
+        "precision": 2
+      },
+      "netValue": {
+        "amount": 2000,
+        "currency": "USD",
+        "precision": 0
+      },
+      "id": "a25af461-706e-46b0-848e-412cbb6b8cdb",
+      "tag": "1R56DPXZ",
+      "status": {
+        "value": "AVAILABLE",
+        "date": 1635452544110,
+        "userId": "082b670f-c9eb-43c0-8f95-ee6dd2e06df5"
+      },
+      "statusHashKey": "AVAILABLE"
+    },
+    {
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+      "materials": [
+        "c9f8bfdd-37ee-4054-bb3f-28055870e1df"
+      ],
+      "type": "BOX",
+      "weight": {
+        "gross": 550,
+        "net": 500,
+        "tare": 50,
+        "units": "lbs"
+      },
+      "averageCost": {
+        "amount": 125,
+        "currency": "USD",
+        "precision": 2
+      },
+      "netValue": {
+        "amount": 625,
+        "currency": "USD",
+        "precision": 0
+      },
+      "id": "a25af461-706e-46b0-848e-412cbb6b8cdc",
+      "tag": "1R56DPXZ",
+      "status": {
+        "value": "AVAILABLE",
+        "date": 1635452544110,
+        "userId": "082b670f-c9eb-43c0-8f95-ee6dd2e06df5"
+      },
+      "statusHashKey": "AVAILABLE"
+    },
+    {
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37793",
+      "materials": [
+        "c9f8bfdd-37ee-4054-bb3f-28055870e1df"
+      ],
+      "type": "BALE",
+      "weight": {
+        "gross": 2,
+        "net": 2,
+        "tare": 0,
+        "units": "NT"
+      },
+      "averageCost": {
+        "amount": 100,
+        "currency": "USD",
+        "precision": 0
+      },
+      "netValue": {
+        "amount": 200,
+        "currency": "USD",
+        "precision": 0
+      },
+      "id": "a25af461-706e-46b0-848e-412cbb6b8cdd",
+      "tag": "1R56DPXZ",
+      "status": {
+        "value": "AVAILABLE",
+        "date": 1635452544110,
+        "userId": "082b670f-c9eb-43c0-8f95-ee6dd2e06df5"
+      },
+      "statusHashKey": "AVAILABLE"
+    },
+    {
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+      "materials": [
+        "c9f8bfdd-37ee-4054-bb3f-28055870e1df"
+      ],
+      "type": "BOX",
+      "weight": {
+        "gross": 550,
+        "net": 500,
+        "tare": 50,
+        "units": "lbs"
+      },
+      "averageCost": {
+        "amount": 125,
+        "currency": "USD",
+        "precision": 2
+      },
+      "netValue": {
+        "amount": 625,
+        "currency": "USD",
+        "precision": 0
+      },
+      "id": "a25af461-706e-46b0-848e-333333333333",
+      "tag": "1R56DPXZ",
+      "status": {
+        "value": "UNAVAILABLE",
+        "date": 1635452544110,
+        "userId": "082b670f-c9eb-43c0-8f95-ee6dd2e06df5"
+      },
+      "statusHashKey": "UNAVAILABLE"
+    }
+  ],
+  "hulk_smash-yard1-PackingLists": [
+    {
+      "id": "a25af461-706e-46b0-848e-111111111111",
+      "status": "AVAILABLE",
+      "finishedGoodsIds": [
+        "a25af461-706e-46b0-848e-412cbb6b8cdb"
+      ]
+    },
+    {
+      "id": "a25af461-706e-46b0-848e-222222222222",
+      "status": "SHIPPED",
+      "finishedGoodsIds": [
+        "a25af461-706e-46b0-848e-333333333333"
+      ]
+    }
+  ],
+  "hulk_smash-yard1-Regrades": [
+    {
+      "id": "a25af461-706e-46b0-848e-111111111111",
+      "fromMaterial": {
+        "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+        "weight": 100
+      },
+      "toMaterial": [
+        {
+          "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+          "weight": 80
+        }
+      ],
+      "date": 1636343801163,
+      "userId": "dschrimpsher"
+    }
+  ]
+}

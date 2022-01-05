@@ -1,0 +1,807 @@
+{
+    "resultsReturned": 33,
+    "page": 1,
+    "totalRegrades": 100,
+    "regradesToday": 5,
+    "totalValueGained": {
+      "amount": 10000,
+      "currency": "usd",
+      "precision": 0,
+      "commonString": "$10,000"
+    },
+    "largestRegradedMaterialByWeight": "6063 Extrusions",
+    "data": [
+        {
+            "id": "1221",
+            "date": "9/8/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 950,
+                        "units": "lbs",
+                        "commonString": "950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1220",
+            "date": "9/8/2021",
+            "fromMaterial": [
+                {
+                    "name": "70/30 Brass Scrap",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "80/20 Brass Scrap",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1219",
+            "date": "9/7/2021",
+            "fromMaterial": [
+                {
+                    "name": "#3 Copper - Light Copper",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "#1 Copper Bare Bright",
+                    "weight": {
+                        "amount": 4950,
+                        "units": "lbs",
+                        "commonString": "4950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1218",
+            "date": "9/7/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1217",
+            "date": "9/6/2021",
+            "fromMaterial": [
+                {
+                    "name": "316 SS Solid",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 750,
+                        "units": "lbs",
+                        "commonString": "750 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1216",
+            "date": "9/6/2021",
+            "fromMaterial": [
+                {
+                    "name": "Unprepared P&S",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Prepared P&S",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1215",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "#3 Copper - Light Copper",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 950,
+                        "units": "lbs",
+                        "commonString": "950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1214",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 7500,
+                        "units": "lbs",
+                        "commonString": "7500 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 7250,
+                        "units": "lbs",
+                        "commonString": "7250 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1213",
+            "date": "9/4/2021",
+            "fromMaterial": [
+                {
+                    "name": "80/20 Brass Scrap",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "70/30 Brass Scrap",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1212",
+            "date": "9/4/2021",
+            "fromMaterial": [
+                {
+                    "name": "Xmas Lights",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "#3 Copper - Light Copper",
+                    "weight": {
+                        "amount": 350,
+                        "units": "lbs",
+                        "commonString": "350 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1211",
+            "date": "9/3/2021",
+            "fromMaterial": [
+                {
+                    "name": "Sealed Units",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1221",
+            "date": "9/8/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 950,
+                        "units": "lbs",
+                        "commonString": "950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1218",
+            "date": "9/7/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1214",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 7500,
+                        "units": "lbs",
+                        "commonString": "7500 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 7250,
+                        "units": "lbs",
+                        "commonString": "7250 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1219",
+            "date": "9/7/2021",
+            "fromMaterial": [
+                {
+                    "name": "5052 Scrap",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "3003 Scrap",
+                    "weight": {
+                        "amount": 4950,
+                        "units": "lbs",
+                        "commonString": "4950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1218",
+            "date": "9/7/2021",
+            "fromMaterial": [
+                {
+                    "name": "Al/Cu Radiators /Fe",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1217",
+            "date": "9/6/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 750,
+                        "units": "lbs",
+                        "commonString": "750 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1216",
+            "date": "9/6/2021",
+            "fromMaterial": [
+                {
+                    "name": "UBC",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1215",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "Al/Cu Radiators /Fe",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Al/Cu Radiators",
+                    "weight": {
+                        "amount": 950,
+                        "units": "lbs",
+                        "commonString": "950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1214",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 7500,
+                        "units": "lbs",
+                        "commonString": "7500 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 7250,
+                        "units": "lbs",
+                        "commonString": "7250 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1213",
+            "date": "9/4/2021",
+            "fromMaterial": [
+                {
+                    "name": "Zorba 90% NF",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "356 Aluminum Wheels (Clean)",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1212",
+            "date": "9/4/2021",
+            "fromMaterial": [
+                {
+                    "name": "Al/Cu Radiators /Fe",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 350,
+                        "units": "lbs",
+                        "commonString": "350 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1214",
+            "date": "9/5/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 7500,
+                        "units": "lbs",
+                        "commonString": "7500 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 7250,
+                        "units": "lbs",
+                        "commonString": "7250 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1217",
+            "date": "9/6/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 750,
+                        "units": "lbs",
+                        "commonString": "750 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1207",
+            "date": "9/2/2021",
+            "fromMaterial": [
+                {
+                    "name": "UBC",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "Multiple",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1205",
+            "date": "9/1/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 5000,
+                        "units": "lbs",
+                        "commonString": "5000 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1203",
+            "date": "8/31/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 750,
+                        "units": "lbs",
+                        "commonString": "750 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1201",
+            "date": "8/30/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 800,
+                        "units": "lbs",
+                        "commonString": "800 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1199",
+            "date": "8/29/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 1000,
+                        "units": "lbs",
+                        "commonString": "1000 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 950,
+                        "units": "lbs",
+                        "commonString": "950 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1197",
+            "date": "8/28/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 7500,
+                        "units": "lbs",
+                        "commonString": "7500 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 7250,
+                        "units": "lbs",
+                        "commonString": "7250 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1195",
+            "date": "8/27/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions/Fe",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1193",
+            "date": "8/26/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 350,
+                        "units": "lbs",
+                        "commonString": "350 lbs"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "1191",
+            "date": "8/25/2021",
+            "fromMaterial": [
+                {
+                    "name": "6063 Extrusions",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ],
+            "toMaterial": [
+                {
+                    "name": "6061 Extrusions",
+                    "weight": {
+                        "amount": 400,
+                        "units": "lbs",
+                        "commonString": "400 lbs"
+                    }
+                }
+            ]
+        }
+    ]
+}

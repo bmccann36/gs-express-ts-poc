@@ -1,0 +1,90 @@
+Number,Commodity Code,Type,Commodity,Material Name,Material Code,Code,Benchmark,Adjustment Date,Sell Price,Spread,Default Buy,UM,Price Type
+1,CU,NF,Copper,Bare Bright Copper,,BAREBRIGHT,,,,,$4.21,lb,Spot
+2,CU,NF,Copper,No. 1 Copper,,COPPER1,,,,,$4.03,lb,Spot
+3,CU,NF,Copper,New Cu Tubing 1.25 in diamater or less,,COPPERTUBING,,,,,$4.10,lb,Spot
+4,CU,NF,Copper,No. 2 Copper/ no enameled,,COPPER2,,,,,$3.80,lb,Spot
+5,CU,NF,Copper,Lite Copper/ enameled,,LITECOPPER,,,,,$3.80,lb,Spot
+6,BR,NF,Brass,Hard Red Brass,,HARDREDBRASS,,,,,$3.12,lb,Spot
+7,BR,NF,Brass,Red Brass,,REDBRASS,,,,,$3.12,lb,Spot
+8,BR,NF,Brass,Semi Red Brass water meter,,SEMIREDRASS,,,,,$3.12,lb,Spot
+9,BR,NF,Brass,Yellow Brass // Tin plated clips,,YELLOWBRASS,,,,,$2.68,lb,Spot
+10,BR,NF,Brass,Plumbing Brass / Unsorted shells,,PLUMBINGBRASS,,,,,$2.68,lb,Spot
+11,BR,NF,Brass,Yellow Brass Shaving / EDM chops,,BRASSSHAVINGS,,,,,$2.68,lb,Spot
+12,BR,NF,Brass,Water Meters Complete,,WATERMETERS,,,,,$0.00,lb,Spot
+13,BR,NF,Brass,Brass Radiators,,BRASS RAD,,,,,$2.35,lb,Spot
+14,BR,NF,Brass,Dirty Brass Radiators,,BRASS RAD DIRTY,,,,,$1.95,lb,Spot
+15,BR,NF,Brass,Yellow Brass Shells 100% Sorted no Nickel or live rounds,,BRASS SHELLS,,,,,$2.68,lb,Spot
+16,BR,NF,Brass,70/30 Brass clips,,7030BRASS,,,,,$3.13,lb,Spot
+17,BR,NF,Brass,Heater Core,,HEATER CORE,,,,,$2.35,lb,Spot
+18,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper >90%+,,INS190,,,,,$3.42,lb,Spot
+19,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper >85%+,,INS185,,,,,$3.25,lb,Spot
+20,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper >80%+,,INS180,,,,,$3.10,lb,Spot
+21,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper >75%+,,INS175,,,,,$2.91,lb,Spot
+22,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper >70%+,,INS170,,,,,$2.70,lb,Spot
+23,ICW,NF,Insulated Cu Wire,No. 1 Ins Copper 65% + Romex,,INS165,,,,,$2.52,lb,Spot
+24,ICW,NF,Insulated Cu Wire,No.2 Ins Copper 60%,,INS160,,,,,$2.05,lb,Spot
+25,ICW,NF,Insulated Cu Wire,60% Helix cable no alum or connectors,,HEALIX60%,,,,,$1.90,lb,Spot
+26,ICW,NF,Insulated Cu Wire,40% Helix cable with alum,,HEALIX40%,,,,,$0.10,lb,Spot
+27,ICW,NF,Insulated Cu Wire,No. 2 Ins Cu. (min. 50%) +,,INS250,,,,,$1.85,lb,Spot
+28,ICW,NF,Insulated Cu Wire,No. 2 Ins Cu. (min. 40%)+,,INS240,,,,,$1.47,lb,Spot
+29,ICW,NF,Insulated Cu Wire,No. 2 Ins Cu. (min. 25%)+,,INS225,,,,,$0.80,lb,Spot
+30,ICW,NF,Insulated Cu Wire,Christmas Lights,,X MAS LIGHTS,,,,,$0.00,lb,Spot
+31,ICW,NF,Insulated Cu Wire,Harnesses Automotive,,INS HARNESS,,,,,$1.25,lb,Spot
+32,ICW,NF,Insulated Cu Wire,Jelly Filled 50%+,,JELLY ,,,,,$0.00,lb,Spot
+33,ICW,NF,Insulated Cu Wire,BX Cable/Aluminum,,BXALUMINUM,,,,,$1.55,lb,Spot
+34,ICW,NF,Insulated Cu Wire,BX Cable/steel,,BXSTEEL,,,,,$0.60,lb,Spot
+35,ICW,NF,Insulated Cu Wire,Cat 5/6,,CAT56,,,,,$1.70,lb,Spot
+36,AL,NF,Aluminum,UBC,,UBC,,,,,$0.78,lb,Spot
+37,AL,NF,Aluminum,Alum Copper Radiator,,ALCURAD,,,,,$1.98,lb,Spot
+38,AL,NF,Aluminum,Alum Copper Radiators/Fe10%,,ALCURADFE,,,,,$1.88,lb,Spot
+39,AL,NF,Aluminum,Al 6063 Bare,,6063BARE,,,,,$1.30,lb,Spot
+40,AL,NF,Aluminum,Al 6063 Painted,,6063PTD,,,,,$1.25,lb,Spot
+41,AL,NF,Aluminum,Al 5052,,AL5052,,,,,$1.15,lb,Spot
+42,AL,NF,Aluminum,Al 5052 Poly,,AL5052POLY,,,,,$1.15,lb,Spot
+43,AL,NF,Aluminum,Al 3003,,AL3003,,,,,$1.14,lb,Spot
+44,AL,NF,Aluminum,Al 6063 FE,,6063FE,,,,,$1.00,lb,Spot
+45,AL,NF,Aluminum,Al 6063 Thermal,,6063THERMAL,,,,,$1.00,lb,Spot
+46,AL,NF,Aluminum,Al Radiators clean,,ALRADCLEAN,,,,,$0.68,lb,Spot
+47,AL,NF,Aluminum,Aluminum Radiators dirty,,ALRADIRTY,,,,,$0.68,lb,Spot
+48,AL,NF,Aluminum,Clean Aluminum Wheels 356,,ALWHEELSCLEAN,,,,,$0.98,lb,Spot
+49,AL,NF,Aluminum,Dirty Aluminum Wheels 356,,ALWHEELSDIRTY,,,,,$0.93,lb,Spot
+50,AL,NF,Aluminum,Aluminum Wheels Chrome,,CHROME WHEELS,,,,,$0.85,lb,Spot
+51,AL,NF,Aluminum,6061 Plate & Pipe,,6061 PIPE,,,,,$0.92,lb,Spot
+52,AL,NF,Aluminum,Truck wheels,,TRUCKWHEELS,,,,,$0.82,lb,Spot
+53,AL,NF,Aluminum,Al 6061 extrusion only,,6061 EXT,,,,,$1.03,lb,Spot
+54,AL,NF,Aluminum,ACSR and Insulated,,EC ACR,,,,,$0.00,lb,Spot
+55,AL,NF,Aluminum,ACAR,,ACAR,,,,,$0.82,lb,Spot
+56,AL,NF,Aluminum,Alum EC Wire,,EC WIRE,,,,,$1.30,lb,Spot
+57,AL,NF,Aluminum,Aluminum Shaving,,AL SHAVING,,,,,$0.65,lb,Spot
+58,AL,NF,Aluminum,Alum MLC,,MLC BARE,,,,,$0.85,lb,Spot
+59,AL,NF,Aluminum,Alum P&S MLC painted,,MLC PTD,,,,,$0.75,lb,Spot
+60,AL,NF,Aluminum,Al Old Sheet,,OLD SHEET,,,,,$0.74,lb,Spot
+61,AL,NF,Aluminum,Cast Alum,,AL CAST,,,,,$0.73,lb,Spot
+62,AL,NF,Aluminum,AL Breakage 20% or better,,AL BKG,,,,,$0.00,lb,Spot
+63,AL,NF,Aluminum,Zinc,,ZINC,,,,,$0.40,lb,Spot
+64,LD,NF,Lead,Lead Wheel weights no loose steel,,LEADWHEELS,,,,,$0.76,lb,Spot
+65,LD,NF,Lead,Batteries,,BATTERIES,,,,,$0.76,lb,Spot
+66,LD,NF,Lead,Steel Cased Battery,,STEELBATTERY,,,,,$0.26,lb,Spot
+67,LD,NF,Lead,Backup Battery,,BACKUPBATTERY,,,,,$0.26,lb,Spot
+68,LD,NF,Lead,Rang Lead,,RANGE LEAD,,,,,$0.26,lb,Spot
+69,LD,NF,Lead,Absolyte Battery,,ABSOLYTEBATTERY,,,,,$0.76,lb,Spot
+70,SS,NF,Stainless Steel,Prepared 304 SS,,SS304PREPARED,,,,,$0.84,lb,Spot
+71,SS,NF,Stainless Steel,Unprepared 304 SS,,SS304UNPREPARED,,,,,$0.79,lb,Spot
+72,SS,NF,Stainless Steel,304 SS shaving,,SS304SHAVING,,,,,$0.84,lb,Spot
+73,SS,NF,Stainless Steel,301 SS,,SS301,,,,,$0.70,lb,Spot
+74,SS,NF,Stainless Steel,316 SS,,SS316,,,,,$1.10,lb,Spot
+75,SS,NF,Stainless Steel,Carbid Inserts,,CARBIDINSERTS,,,,,$0.40,lb,Spot
+76,SS,NF,Stainless Steel,Electric motors no Alum wound,,ELECTRIC MOTORS,,,,,$0.40,lb,Spot
+77,SS,NF,Stainless Steel,LARGE Electric motors,,LARGE MOTORS,,,,,$0.37,lb,Spot
+78,SS,NF,Stainless Steel,Sealed Units,,SEALEDUNITS,,,,,$0.00,lb,Spot
+79,SS,NF,Stainless Steel,Non Electronic Ballast,,BALLAST,,,,,$0.00,lb,Spot
+80,SS,NF,Stainless Steel,Fan and Alum wound motors,,WOUNDMOTORS,,,,,$0.00,lb,Spot
+81,PL,Other,Plastic,HDPE Regrind,,HDPEREGRIND,,,,,$0.00,lb,Spot
+82,OT,Other,Other,Water,,WATER,,,,,$0.00,lb,Spot
+83,OT,Other,Other,Trash,,TRASH,,,,,$0.00,lb,Spot
+84,OT,Other,Other,Dirt,,DIRT,,,,,$0.00,lb,Spot
+85,OT,Other,Other,Wood,,WOOD,,,,,$0.00,lb,Spot
+86,WA,Waste,Waste,Waste,,WASTE,,,,,$0.00,lb,Spot
+87,AL,NF,Aluminum,Truck rims,,TRUCKRIMS,,,,,$0.82 ,lb,Spot
+88,AL,NF,Aluminum,Alum MLC Poly,,MLC POLY,,,,,$0.75 ,lb,Spot
+89,AL,NF,Aluminum,Alum PAS,,AL PAS,,,,,$0.73 ,lb,Spot

@@ -20,8 +20,8 @@ Resources:
         - x86_64
       Environment:
         Variables:
-          DB_USER: DEFAULT_USER
-          DB_HOST: DEFAULT_HOST
+          DB_USER: postgres
+          DB_HOST: stage.cluster-ca8to69alblg.us-east-2.rds.amazonaws.com
           DB_PASSWORD: DEFAULT_PASSWORD
       Events:
         HelloWorld:
@@ -29,6 +29,7 @@ Resources:
           Properties:
             Path: /{proxy+}
             Method: get
+      MemorySize: 512
       VpcConfig:
         SecurityGroupIds:
           - sg-8e2028fc

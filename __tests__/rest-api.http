@@ -1,0 +1,381 @@
+OPTIONS https://fts7keivf7.execute-api.us-east-2.amazonaws.com/Stage/price-sheets
+Accept: application/json
+###
+POST http://localhost:3000/regrades
+Accept: application/json
+Authorization: Bearer {{token}}
+
+{
+  "fromMaterial": {
+    "materialTypeId": "9265a242-11d5-43e7-9812-c55e98027338",
+    "weight": 1
+  },
+  "toMaterials": [
+    {
+      "materialTypeId": "6082c926-cf39-4986-bb9b-841460c81df0",
+      "weight": 1
+    }
+  ]
+}
+
+###
+GET http://localhost:3000/regrades
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+GET http://localhost:3000/inventory/packing-lists/meta
+Accept: application/json
+Authorization: Bearer {{token}}
+
+###
+GET http://localhost:3000/commodities?filter={"key": "name", "value": "Alum"}
+Accept: application/json
+Organization: hulk_smash
+Yard: yard1
+Userid: test-user
+
+###
+
+POST http://localhost:3000/material-types/batch
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: test-user
+
+###
+POST http://localhost:3000/price-sheets/batch
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: test-user
+
+###
+POST http://localhost:3000/inventory/batch
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: test-user
+
+###
+POST http://localhost:3000/inbound-tickets
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 999,
+  "value": "content"
+}
+
+###
+POST http://localhost:3000/inbound-tickets
+Accept: application/json
+Content-Type: application/json
+
+{
+  "customer": {
+    "customerCommonIdentifierString": "Bob Frog Scrap"
+  },
+  "materials": [
+    {
+      "code": "123",
+      "gross": {
+        "amount": 100,
+        "units": "lbs"
+      },
+      "tare": {
+        "amount": 10,
+        "units": "lbs"
+      },
+      "netWeight": {
+        "amount": 90,
+        "units": "lbs"
+      }
+    }
+  ]
+}
+
+###
+GET http://localhost:3000/inbound-tickets
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 0, "Incorrect number of results");
+});
+%}
+###
+
+GET http://localhost:3000/inbound-tickets/036d798f-acf3-469e-be46-b78cc42cde97
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 404");
+});
+%}
+###
+
+GET http://localhost:3000/commodities
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 10, "Incorrect number of results");
+});
+%}
+
+###
+
+GET http://localhost:3000/commodities?page=2&fromKey=8ac4be83-153a-4cdc-aa0f-287dd63c9704
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+
+###
+
+GET http://localhost:3000/commodities?filter={"key": "type", "value": "FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 3, "Incorrect number of results");
+});
+%}
+###
+GET http://localhost:3000/commodities?page=7&pageSize=2
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 0, "Incorrect number of results");
+});
+%}
+
+###
+
+GET http://localhost:3000/commodities?page=2&pageSize=7&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/commodities?pageSize=2
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 2, "Incorrect number of results");
+});
+%}
+
+###
+
+GET http://localhost:3000/commodities?page=2&pageSize=7&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+###
+
+GET http://localhost:3000/commodities?page=3&pageSize=7&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 0, "Incorrect number of results");
+});
+%}
+
+###
+
+GET http://localhost:3000/commodities?page=2&fromKey=8ac4be83-153a-4cdc-aa0f-287dd63c9704&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/commodities?page=1&pageSize=5&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 5, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/commodities?page=2&pageSize=5&fromKey=baeb6802-5c18-40c8-91cd-5dd4079a6d6f&filter={"key": "type", "value": "NON_FERROUS"}
+Accept: application/json
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 3, "Incorrect number of results");
+});
+%}
+
+###
+GET http://localhost:3000/commodities/1
+Accept: application/json
+
+###
+GET http://localhost:3000/inventory/commodity
+Accept: application/json
+###
+GET http://localhost:3001/inventory/commodity
+Accept: application/json
+
+###
+GET http://localhost:3000/customers
+Accept: application/json
+
+###
+PUT http://localhost:3000/inbound-tickets/036d798f-acf3-469e-be46-b78cc42cde97
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "036d798f-acf3-469e-be46-b78cc42cde97",
+  "customer": {
+    "customerCommonIdentifierString": "Bob Frog Scrap"
+  },
+  "materials": [
+    {
+      "code": "123",
+      "gross": {
+        "amount": 100,
+        "units": "lbs"
+      },
+      "tare": {
+        "amount": 10,
+        "units": "lbs"
+      },
+      "netWeight": {
+        "amount": 90,
+        "units": "lbs"
+      }
+    }
+  ]
+}
+
+###
+GET https://fts7keivf7.execute-api.us-east-2.amazonaws.com/Stage/price-sheets
+Accept: application/json
+Authorization: Bearer {{token}}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+  client.assert(response.body.resultsReturned === 1, "Incorrect number of results");
+  client.assert(response.body.Items[0].entries.length === 27, "Missing Price Entries");
+  client.assert(response.body.Items[0].entriesObj.length === 27, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[0].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[1].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[2].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[3].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[4].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[5].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[6].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[7].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[8].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[9].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[10].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[11].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[12].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[13].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[14].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[15].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[16].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[17].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[18].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[19].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[20].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[21].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[22].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[23].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[24].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[25].materialTypes != null, "Missing Price Entry Obj");
+  client.assert(response.body.Items[0].entriesObj[26].materialTypes != null, "Missing Price Entry Obj");
+
+});
+%}
+###
+POST http://localhost:3000/customers
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: hulk_smash
+Yard: yard1
+Userid: dschrimpsher
+
+{
+   "customerCommonIdentifierString": "Jim Bob Construction",
+   "companyName": "Jim Bob Construction"
+}
+
+> {%
+client.test("Request executed successfully", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+%}
+
+###
+GET {{url}}/commodities?filter={"key": "code", "value": "ICW"}
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+###
+POST {{url}}/material-types
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher
+
+{
+ "code": "INS245",
+ "commodityName": "Insulated Cu Wire",
+ "commodityId": "2f6c6d5c-a3ff-4af2-a609-74d3ed5c6467",
+ "user": "dschrimpsher",
+ "commonName": "No. 2 Ins Cu. (min. 45%)+"
+}
+
+###
+GET {{url}}/material-types/371ccfe6-804b-4298-9b05-b5ed9000e9b9
+Accept: application/json
+Authorization: Bearer {{token}}
+Organization: {{organization}}
+Yard: {{yard}}
+Userid: dschrimpsher

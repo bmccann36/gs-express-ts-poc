@@ -1,0 +1,151 @@
+{
+  "resultsReturned": 3,
+  "page": 1,
+  "data": [
+    {
+      "id": "1234",
+      "ticketNumber": 1,
+      "status": {
+        "value": "Incomplete",
+        "date": "2021-04-21",
+        "userId": "test-user-1"
+      },
+      "customer": {
+        "id": "1234",
+        "customerCommonIdentifierString": "Gordan Driscoll",
+        "firstName": "Gordon",
+        "lastName": "Driscoll"
+      },
+      "truckNumber": "42373",
+      "material": [
+        {
+          "id": "1234",
+          "code": "CUALT",
+          "weight": {
+            "amount": 45,
+            "units": "lbs",
+            "weightString": "45lbs"
+          },
+          "price": {
+            "amount": 3520,
+            "currency": "USD",
+            "precision": 3,
+            "priceString": "$3.520/lbs"
+          }
+        },
+        {
+          "id": "5678",
+          "code": "AL1100",
+          "weight": {
+            "amount": 15,
+            "units": "lbs",
+            "weightString": "15lbs"
+          },
+          "price": {
+            "amount": 1200,
+            "currency": "USD",
+            "precision": 3,
+            "priceString": "$1.200/lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 55,
+        "units": "lbs",
+        "weightString": "55lbs"
+      },
+      "netPrice": {
+        "amount": 3100,
+        "currency": "USD",
+        "precision": 3,
+        "priceString": "Multiple"
+      }
+    },
+    {
+      "ticketId": "5678",
+      "ticketNumber": 2,
+      "status": {
+        "value": "Scale Complete",
+        "date": "2021-04-20",
+        "userId": "test-user-1"
+      },
+      "customer": {
+        "id": "5678",
+        "companyName": "ABC Industrial",
+        "customerCommonIdentifierString": "ABC Industrial"
+      },
+      "truckNumber": "78373",
+      "material": [
+        {
+          "id": "1234",
+          "code": "CUALT",
+          "weight": {
+            "amount": 5200,
+            "units": "lbs",
+            "weightString": "5200lbs"
+          },
+          "price": {
+            "amount": 3520,
+            "currency": "USD",
+            "precision": 3,
+            "priceString": "$3.520/lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 5200,
+        "units": "lbs",
+        "weightString": "5200lbs"
+      },
+      "netPrice": {
+        "amount": 3520,
+        "currency": "USD",
+        "precision": 3,
+        "priceString": "$3.520/lbs"
+      }
+    },
+    {
+      "ticketId": "9012",
+      "ticketNumber": 3,
+      "status": {
+        "value": "Scale Complete",
+        "date": "2021-04-14",
+        "userId": "test-user-1"
+      },
+      "customer": {
+        "id": "55656",
+        "companyName": "Wisoky-Strosin",
+        "customerCommonIdentifierString": "Wisoky-Strosin"
+      },
+      "truckNumber": "55656",
+      "material": [
+        {
+          "id": "5678",
+          "code": "AL1100",
+          "weight": {
+            "amount": 4000,
+            "units": "lbs",
+            "weightString": "4000lbs"
+          },
+          "price": {
+            "amount": 1200,
+            "currency": "USD",
+            "precision": 3,
+            "priceString": "$1.200/lbs"
+          }
+        }
+      ],
+      "netWeight": {
+        "amount": 4000,
+        "units": "lbs",
+        "weightString": "4000lbs"
+      },
+      "netPrice": {
+        "amount": 1200,
+        "currency": "USD",
+        "precision": 3,
+        "priceString": "$1.200/lbs"
+      }
+    }
+  ]
+}

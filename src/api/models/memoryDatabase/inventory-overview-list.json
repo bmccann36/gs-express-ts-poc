@@ -1,0 +1,299 @@
+{
+    "resultsReturned": 9,
+    "page": 1,
+    "totalWeight": {
+        "amount": 3076496,
+        "units": "lbs",
+        "commonString": "3076496 lbs"
+    },
+    "totalCost": {
+        "amount": 2747534,
+        "currency": "usd",
+        "precision": 2,
+        "commonString": "$2,747,534"
+    },
+    "largestMaterialByWeight": "3003 Scrap",
+    "largestMaterialByValue": " Al/Cu Radiators",
+    "weightReceivedYesterday": {
+      "amount": 10000,
+      "units": "lbs",
+      "commonString": "10000 lbs"
+    },
+    "weightShippedYesterday": {
+      "amount": 10000,
+      "units": "lbs",
+      "commonString": "10000 lbs"
+    },
+    "data": [
+        {
+            "name": "Aluminum",
+            "wip": {
+                "amount": 472249,
+                "units": "lbs",
+                "commonString": "472249 lbs"
+            },
+            "finishedGoods": {
+                "amount": 258500,
+                "units": "lbs",
+                "commonString": "258500 lbs"
+            },
+            "total": {
+                "amount": 730749,
+                "units": "lbs",
+                "commonString": "730749 lbs"
+            },
+            "averageCost": {
+                "amount": 52,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.52/lbs"
+            },
+            "value": {
+                "amount": 382761,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$382,761"
+            }
+        },
+        {
+            "name": "Brass",
+            "wip": {
+                "amount": 199583,
+                "units": "lbs",
+                "commonString": "199583 lbs"
+            },
+            "finishedGoods": {
+                "amount": 136000,
+                "units": "lbs",
+                "commonString": "136000 lbs"
+            },
+            "total": {
+                "amount": 335583,
+                "units": "lbs",
+                "commonString": "335583 lbs"
+            },
+            "averageCost": {
+                "amount": 147,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$1.47/lbs"
+            },
+            "value": {
+                "amount": 492709,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$492,709"
+            }
+        },
+        {
+            "name": "Insulated Copper Wire",
+            "wip": {
+                "amount": 15000,
+                "units": "lbs",
+                "commonString": "15000 lbs"
+            },
+            "finishedGoods": {
+                "amount": 150000,
+                "units": "lbs",
+                "commonString": "150000 lbs"
+            },
+            "total": {
+                "amount": 165000,
+                "units": "lbs",
+                "commonString": "165000 lbs"
+            },
+            "averageCost": {
+                "amount": 225,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$2.25/lbs"
+            },
+            "value": {
+                "amount": 371250,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$371,250"
+            }
+        },
+        {
+            "name": "Copper",
+            "wip": {
+                "amount": 535795,
+                "units": "lbs",
+                "commonString": "535795 lbs"
+            },
+            "finishedGoods": {
+                "amount": 179525,
+                "units": "lbs",
+                "commonString": "179525 lbs"
+            },
+            "total": {
+                "amount": 715320,
+                "units": "lbs",
+                "commonString": "715320 lbs"
+            },
+            "averageCost": {
+                "amount": 127,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$1.27/lbs"
+            },
+            "value": {
+                "amount": 906887,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$906,887"
+            }
+        },
+        {
+            "name": "Lead",
+            "wip": {
+                "amount": 128987,
+                "units": "lbs",
+                "commonString": "128987 lbs"
+            },
+            "finishedGoods": {
+                "amount": 36000,
+                "units": "lbs",
+                "commonString": "36000 lbs"
+            },
+            "total": {
+                "amount": 164987,
+                "units": "lbs",
+                "commonString": "164987 lbs"
+            },
+            "averageCost": {
+                "amount": 50,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.50/lbs"
+            },
+            "value": {
+                "amount": 81755,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$81,755"
+            }
+        },
+        {
+            "name": "Nickel",
+            "wip": {
+                "amount": 125000,
+                "units": "lbs",
+                "commonString": "125000 lbs"
+            },
+            "finishedGoods": {
+                "amount": 10000,
+                "units": "lbs",
+                "commonString": "10000 lbs"
+            },
+            "total": {
+                "amount": 135000,
+                "units": "lbs",
+                "commonString": "135000 lbs"
+            },
+            "averageCost": {
+                "amount": 75,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.75/lbs"
+            },
+            "value": {
+                "amount": 101250,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$101,250"
+            }
+        },
+        {
+            "name": "Stainless Steel",
+            "wip": {
+                "amount": 290704,
+                "units": "lbs",
+                "commonString": "290704 lbs"
+            },
+            "finishedGoods": {
+                "amount": 69000,
+                "units": "lbs",
+                "commonString": "69000 lbs"
+            },
+            "total": {
+                "amount": 359704,
+                "units": "lbs",
+                "commonString": "359704 lbs"
+            },
+            "averageCost": {
+                "amount": 86,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.86/lbs"
+            },
+            "value": {
+                "amount": 309957,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$309,957"
+            }
+        },
+        {
+            "name": "Steel",
+            "wip": {
+                "amount": 335800,
+                "units": "lbs",
+                "commonString": "335800 lbs"
+            },
+            "finishedGoods": {
+                "amount": 71000,
+                "units": "lbs",
+                "commonString": "71000 lbs"
+            },
+            "total": {
+                "amount": 406800,
+                "units": "lbs",
+                "commonString": "406800 lbs"
+            },
+            "averageCost": {
+                "amount": 13,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.13/lbs"
+            },
+            "value": {
+                "amount": 54640,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$54,640"
+            }
+        },
+        {
+            "name": "Zinc",
+            "wip": {
+                "amount": 43353,
+                "units": "lbs",
+                "commonString": "43353 lbs"
+            },
+            "finishedGoods": {
+                "amount": 20000,
+                "units": "lbs",
+                "commonString": "20000 lbs"
+            },
+            "total": {
+                "amount": 63353,
+                "units": "lbs",
+                "commonString": "63353 lbs"
+            },
+            "averageCost": {
+                "amount": 73,
+                "currency": "usd",
+                "precision": 2,
+                "commonString": "$0.73/lbs"
+            },
+            "value": {
+                "amount": 46326,
+                "currency": "usd",
+                "precision": 0,
+                "commonString": "$46,326"
+            }
+        }
+    ]
+}

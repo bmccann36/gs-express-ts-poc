@@ -1,0 +1,1863 @@
+{
+    "resultsReturned": 1,
+    "page": 1,
+    "data": [
+        {
+            "id": 1,
+            "sheetType": "DEFAULT",
+            "date": "2021-09-10",
+            "entries": [
+                {
+                    "id": 1000,
+                    "materialId": 100,
+                    "materialCode": "AL1100",
+                    "material": {
+                        "id": 100,
+                        "code": "AL1100",
+                        "commonName": "1100 Scrap",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 48
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1001,
+                    "materialId": 101,
+                    "materialCode": "AL3003",
+                    "material": {
+                        "id": 101,
+                        "code": "AL3003",
+                        "commonName": "3003 Scrap",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 48
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1002,
+                    "materialId": 102,
+                    "materialCode": "AL356",
+                    "material": {
+                        "id": 102,
+                        "code": "AL356",
+                        "commonName": "356 Aluminum Wheels (Clean)",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 48
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1003,
+                    "materialId": 103,
+                    "materialCode": "AL5052",
+                    "material": {
+                        "id": 103,
+                        "code": "AL5052",
+                        "commonName": "5052 Scrap",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.7300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 73
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1004,
+                    "materialId": 104,
+                    "materialCode": "AL6061EXT",
+                    "material": {
+                        "id": 104,
+                        "code": "AL6061EXT",
+                        "commonName": "6061 Extrusions",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4600",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 46
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1005,
+                    "materialId": 105,
+                    "materialCode": "AL6063EXT",
+                    "material": {
+                        "id": 105,
+                        "code": "AL6063EXT",
+                        "commonName": "6063 Extrusions",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.6500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 65
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1006,
+                    "materialId": 106,
+                    "materialCode": "AL6063FEEXT",
+                    "material": {
+                        "id": 106,
+                        "code": "AL6063FEEXT",
+                        "commonName": "6063 Extrusions/Fe",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 42
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1007,
+                    "materialId": 107,
+                    "materialCode": "ALCURAD",
+                    "material": {
+                        "id": 107,
+                        "code": "ALCURAD",
+                        "commonName": "Al/Cu Radiators",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.3000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 130
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1008,
+                    "materialId": 108,
+                    "materialCode": "ALCURADFE",
+                    "material": {
+                        "id": 108,
+                        "code": "ALCURADFE",
+                        "commonName": "Al/Cu Radiators /Fe",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.1400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 113
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1009,
+                    "materialId": 109,
+                    "materialCode": "ALRAD",
+                    "material": {
+                        "id": 109,
+                        "code": "ALRAD",
+                        "commonName": "Aluminum Radiators",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3100",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 31
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1010,
+                    "materialId": 110,
+                    "materialCode": "ALRADFE",
+                    "material": {
+                        "id": 110,
+                        "code": "ALRADFE",
+                        "commonName": "Aluminum Radiators /Fe",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 25
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1011,
+                    "materialId": 111,
+                    "materialCode": "ALTRAN",
+                    "material": {
+                        "id": 111,
+                        "code": "ALTRAN",
+                        "commonName": "Aluminum Transformers",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 13
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1012,
+                    "materialId": 112,
+                    "materialCode": "ALBR50",
+                    "material": {
+                        "id": 112,
+                        "code": "ALBR50",
+                        "commonName": "Breakage 50% Recovery",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1600",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 16
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1013,
+                    "materialId": 113,
+                    "materialCode": "ALWHEEL",
+                    "material": {
+                        "id": 113,
+                        "code": "ALWHEEL",
+                        "commonName": "Chrome Wheels",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 44
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1014,
+                    "materialId": 114,
+                    "materialCode": "ALWIRE",
+                    "material": {
+                        "id": 114,
+                        "code": "ALWIRE",
+                        "commonName": "E.C. Aluminum Wire",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.8500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 85
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1015,
+                    "materialId": 115,
+                    "materialCode": "ALLITHO",
+                    "material": {
+                        "id": 115,
+                        "code": "ALLITHO",
+                        "commonName": "Litho Sheets",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4900",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 49
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1016,
+                    "materialId": 116,
+                    "materialCode": "ALMIXED",
+                    "material": {
+                        "id": 116,
+                        "code": "ALMIXED",
+                        "commonName": "Mixed Aluminum Turnings",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2700",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 27
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1017,
+                    "materialId": 117,
+                    "materialCode": "ALCLIP",
+                    "material": {
+                        "id": 117,
+                        "code": "ALCLIP",
+                        "commonName": "Aluminum Clips",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4700",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 47
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1018,
+                    "materialId": 118,
+                    "materialCode": "ALCAST",
+                    "material": {
+                        "id": 118,
+                        "code": "ALCAST",
+                        "commonName": "Old Cast",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 45
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1019,
+                    "materialId": 119,
+                    "materialCode": "ALSHEET",
+                    "material": {
+                        "id": 119,
+                        "code": "ALSHEET",
+                        "commonName": "Old Sheet",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 45
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1020,
+                    "materialId": 120,
+                    "materialCode": "ALSIDE",
+                    "material": {
+                        "id": 120,
+                        "code": "ALSIDE",
+                        "commonName": "Painted Siding",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 44
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1021,
+                    "materialId": 121,
+                    "materialCode": "ALUBC",
+                    "material": {
+                        "id": 121,
+                        "code": "ALUBC",
+                        "commonName": "UBC",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.5200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 52
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1022,
+                    "materialId": 122,
+                    "materialCode": "ZORBA",
+                    "material": {
+                        "id": 122,
+                        "code": "ZORBA",
+                        "commonName": "Zorba 90% NF",
+                        "commodity": {
+                            "id": 1,
+                            "name": "Aluminum",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 45
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1023,
+                    "materialId": 123,
+                    "materialCode": "BR70",
+                    "material": {
+                        "id": 123,
+                        "code": "BR70",
+                        "commonName": "70/30 Brass Scrap",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.6600",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 166
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1024,
+                    "materialId": 124,
+                    "materialCode": "BR80",
+                    "material": {
+                        "id": 124,
+                        "code": "BR80",
+                        "commonName": "80/20 Brass Scrap",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.9200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 192
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1025,
+                    "materialId": 125,
+                    "materialCode": "BR85",
+                    "material": {
+                        "id": 125,
+                        "code": "BR85",
+                        "commonName": "85/15 Brass Scrap",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$2.0400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 204
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1026,
+                    "materialId": 126,
+                    "materialCode": "BRRAD",
+                    "material": {
+                        "id": 126,
+                        "code": "BRRAD",
+                        "commonName": "Brass Radiator",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.4400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 144
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1027,
+                    "materialId": 127,
+                    "materialCode": "BRRADFE",
+                    "material": {
+                        "id": 127,
+                        "code": "BRRADFE",
+                        "commonName": "Brass Radiator /Fe",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.6500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 65
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1028,
+                    "materialId": 128,
+                    "materialCode": "BRRADEND",
+                    "material": {
+                        "id": 128,
+                        "code": "BRRADEND",
+                        "commonName": "Brass Radiator Ends",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 25
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1029,
+                    "materialId": 129,
+                    "materialCode": "BRRED",
+                    "material": {
+                        "id": 129,
+                        "code": "BRRED",
+                        "commonName": "Red Brass",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.8200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 182
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1030,
+                    "materialId": 130,
+                    "materialCode": "BRROD",
+                    "material": {
+                        "id": 130,
+                        "code": "BRROD",
+                        "commonName": "Rod Borings",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.5800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 158
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1031,
+                    "materialId": 131,
+                    "materialCode": "BRYELLOW",
+                    "material": {
+                        "id": 131,
+                        "code": "BRYELLOW",
+                        "commonName": "Yellow Brass",
+                        "commodity": {
+                            "id": 2,
+                            "name": "Brass",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.6600",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 166
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1032,
+                    "materialId": 132,
+                    "materialCode": "CUALT",
+                    "material": {
+                        "id": 132,
+                        "code": "CUALT",
+                        "commonName": "Alternator",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 30
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1033,
+                    "materialId": 133,
+                    "materialCode": "CU1BB",
+                    "material": {
+                        "id": 133,
+                        "code": "CU1BB",
+                        "commonName": "#1 Copper Bare Bright",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$3.0000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 300
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1034,
+                    "materialId": 134,
+                    "materialCode": "CU1WIRE",
+                    "material": {
+                        "id": 134,
+                        "code": "CU1WIRE",
+                        "commonName": "#1 Copper Wire and Tubing",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$2.9000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 290
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1035,
+                    "materialId": 135,
+                    "materialCode": "CU1INS85",
+                    "material": {
+                        "id": 135,
+                        "code": "CU1INS85",
+                        "commonName": "#1 Insulated Copper Wire 85% Recovery",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.5400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 154
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1036,
+                    "materialId": 136,
+                    "materialCode": "CU2WIRE",
+                    "material": {
+                        "id": 136,
+                        "code": "CU2WIRE",
+                        "commonName": "#2 Copper Wire and Tubing",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$2.8000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 280
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1037,
+                    "materialId": 137,
+                    "materialCode": "CU2INS50",
+                    "material": {
+                        "id": 137,
+                        "code": "CU2INS50",
+                        "commonName": "#2 Insulated Copper Wire 50% Recovery",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.0000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 100
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1038,
+                    "materialId": 138,
+                    "materialCode": "CU3LIGHT",
+                    "material": {
+                        "id": 138,
+                        "code": "CU3LIGHT",
+                        "commonName": "#3 Copper - Light Copper",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$2.7000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 270
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1039,
+                    "materialId": 139,
+                    "materialCode": "CURAD",
+                    "material": {
+                        "id": 139,
+                        "code": "CURAD",
+                        "commonName": "Copper Radiators",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.6800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 168
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1040,
+                    "materialId": 140,
+                    "materialCode": "CUTRANS",
+                    "material": {
+                        "id": 140,
+                        "code": "CUTRANS",
+                        "commonName": "Copper Transformer Scrap",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 35
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1041,
+                    "materialId": 141,
+                    "materialCode": "CUYOKES",
+                    "material": {
+                        "id": 141,
+                        "code": "CUYOKES",
+                        "commonName": "Cu Yokes",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.5100",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 51
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1042,
+                    "materialId": 142,
+                    "materialCode": "CUALRADEND",
+                    "material": {
+                        "id": 142,
+                        "code": "CUALRADEND",
+                        "commonName": "Cu/Al Radiator Ends",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 42
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1043,
+                    "materialId": 143,
+                    "materialCode": "CUALRAD",
+                    "material": {
+                        "id": 143,
+                        "code": "CUALRAD",
+                        "commonName": "Cu/Al Radiators",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.3000",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 130
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1044,
+                    "materialId": 144,
+                    "materialCode": "CUALRADFE",
+                    "material": {
+                        "id": 144,
+                        "code": "CUALRADFE",
+                        "commonName": "Cu/Al Radiators /Fe",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.1400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 113
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1045,
+                    "materialId": 145,
+                    "materialCode": "CUHARNESS",
+                    "material": {
+                        "id": 145,
+                        "code": "CUHARNESS",
+                        "commonName": "Harness Wire 35% Recovery",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.9200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 92
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1046,
+                    "materialId": 146,
+                    "materialCode": "CUCORES",
+                    "material": {
+                        "id": 146,
+                        "code": "CUCORES",
+                        "commonName": "Heater Cores",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.3200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 132
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1047,
+                    "materialId": 147,
+                    "materialCode": "CUROMEX",
+                    "material": {
+                        "id": 147,
+                        "code": "CUROMEX",
+                        "commonName": "Romex\ufffd Wire",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.4700",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 147
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1048,
+                    "materialId": 148,
+                    "materialCode": "CUMOTOR",
+                    "material": {
+                        "id": 148,
+                        "code": "CUMOTOR",
+                        "commonName": "Scrap Electric Motors",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 25
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1049,
+                    "materialId": 149,
+                    "materialCode": "CUSEALED",
+                    "material": {
+                        "id": 149,
+                        "code": "CUSEALED",
+                        "commonName": "Sealed Units",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2100",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 21
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1050,
+                    "materialId": 150,
+                    "materialCode": "CUSTARTERS",
+                    "material": {
+                        "id": 150,
+                        "code": "CUSTARTERS",
+                        "commonName": "Starters",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 24
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1051,
+                    "materialId": 151,
+                    "materialCode": "CUXMAS",
+                    "material": {
+                        "id": 151,
+                        "code": "CUXMAS",
+                        "commonName": "Xmas Lights",
+                        "commodity": {
+                            "id": 3,
+                            "name": "Copper",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 23
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1052,
+                    "materialId": 152,
+                    "materialCode": "PBWHEEL",
+                    "material": {
+                        "id": 152,
+                        "code": "PBWHEEL",
+                        "commonName": "Lead Wheel Weights",
+                        "commodity": {
+                            "id": 4,
+                            "name": "Lead",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3100",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 31
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1053,
+                    "materialId": 153,
+                    "materialCode": "PBSOLID",
+                    "material": {
+                        "id": 153,
+                        "code": "PBSOLID",
+                        "commonName": "Lead-Solid Lead",
+                        "commodity": {
+                            "id": 4,
+                            "name": "Lead",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.6300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 63
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1054,
+                    "materialId": 154,
+                    "materialCode": "PBFIRED",
+                    "material": {
+                        "id": 154,
+                        "code": "PBFIRED",
+                        "commonName": "Range Lead-Bullets that have been fired",
+                        "commodity": {
+                            "id": 4,
+                            "name": "Lead",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 48
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1055,
+                    "materialId": 155,
+                    "materialCode": "PBAUTOBAT",
+                    "material": {
+                        "id": 155,
+                        "code": "PBAUTOBAT",
+                        "commonName": "Scrap Auto Batteries",
+                        "commodity": {
+                            "id": 4,
+                            "name": "Lead",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 34
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1056,
+                    "materialId": 156,
+                    "materialCode": "PBSOFT",
+                    "material": {
+                        "id": 156,
+                        "code": "PBSOFT",
+                        "commonName": "Soft Lead",
+                        "commodity": {
+                            "id": 4,
+                            "name": "Lead",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.6600",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 66
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1057,
+                    "materialId": 157,
+                    "materialCode": "SS201",
+                    "material": {
+                        "id": 157,
+                        "code": "SS201",
+                        "commonName": "201 SS",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.2100",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 21
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1058,
+                    "materialId": 158,
+                    "materialCode": "SS301",
+                    "material": {
+                        "id": 158,
+                        "code": "SS301",
+                        "commonName": "301 SS",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.3400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 34
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1059,
+                    "materialId": 159,
+                    "materialCode": "SS304SOLID",
+                    "material": {
+                        "id": 159,
+                        "code": "SS304SOLID",
+                        "commonName": "304 SS Solid",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.5300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 53
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1060,
+                    "materialId": 160,
+                    "materialCode": "SS304TURN",
+                    "material": {
+                        "id": 160,
+                        "code": "SS304TURN",
+                        "commonName": "304 SS Turning",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.4700",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 47
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1061,
+                    "materialId": 161,
+                    "materialCode": "SS309",
+                    "material": {
+                        "id": 161,
+                        "code": "SS309",
+                        "commonName": "309 SS",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.7700",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 77
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1062,
+                    "materialId": 162,
+                    "materialCode": "SS310",
+                    "material": {
+                        "id": 162,
+                        "code": "SS310",
+                        "commonName": "310 SS",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.1900",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 119
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1063,
+                    "materialId": 163,
+                    "materialCode": "SS316",
+                    "material": {
+                        "id": 163,
+                        "code": "SS316",
+                        "commonName": "316 SS Solid",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.7300",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 73
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1064,
+                    "materialId": 164,
+                    "materialCode": "SS330",
+                    "material": {
+                        "id": 164,
+                        "code": "SS330",
+                        "commonName": "330 SS",
+                        "commodity": {
+                            "id": 5,
+                            "name": "Stainless Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$1.9500",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 195
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1065,
+                    "materialId": 165,
+                    "materialCode": "1BUNDLE",
+                    "material": {
+                        "id": 165,
+                        "code": "1BUNDLE",
+                        "commonName": "#1 Bundle",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 14
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1066,
+                    "materialId": 166,
+                    "materialCode": "1BUSHEL",
+                    "material": {
+                        "id": 166,
+                        "code": "1BUSHEL",
+                        "commonName": "#1 Busheling",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1475",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 14
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1067,
+                    "materialId": 167,
+                    "materialCode": "1HMS",
+                    "material": {
+                        "id": 167,
+                        "code": "1HMS",
+                        "commonName": "#1 HMS",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1250",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 12
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1068,
+                    "materialId": 168,
+                    "materialCode": "HMS80",
+                    "material": {
+                        "id": 168,
+                        "code": "HMS80",
+                        "commonName": "HMS 80/20",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1200",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 12
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1069,
+                    "materialId": 169,
+                    "materialCode": "STEELSHEET",
+                    "material": {
+                        "id": 169,
+                        "code": "STEELSHEET",
+                        "commonName": "Sheet Metal",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1025",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 10
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1070,
+                    "materialId": 170,
+                    "materialCode": "STEELSHRED",
+                    "material": {
+                        "id": 170,
+                        "code": "STEELSHRED",
+                        "commonName": "Shredded Auto Scrap",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1400",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 14
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1071,
+                    "materialId": 171,
+                    "materialCode": "STEELSTRUC",
+                    "material": {
+                        "id": 171,
+                        "code": "STEELSTRUC",
+                        "commonName": "Structural Steel",
+                        "commodity": {
+                            "id": 6,
+                            "name": "Steel",
+                            "type": "FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.1250",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 12
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1072,
+                    "materialId": 172,
+                    "materialCode": "NEWZINC",
+                    "material": {
+                        "id": 172,
+                        "code": "NEWZINC",
+                        "commonName": "New Zinc Die Cast",
+                        "commodity": {
+                            "id": 7,
+                            "name": "Zinc",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.7900",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 79
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                },
+                {
+                    "id": 1073,
+                    "materialId": 173,
+                    "materialCode": "OLDZINC",
+                    "material": {
+                        "id": 173,
+                        "code": "OLDZINC",
+                        "commonName": "Old Zinc Die Cast",
+                        "commodity": {
+                            "id": 7,
+                            "name": "Zinc",
+                            "type": "NON_FERROUS"
+                        }
+                    },
+                    "price": {
+                        "commonString": "$0.6800",
+                        "currency": "usd",
+                        "precision": 2,
+                        "amount": 68
+                    },
+                    "priceType": "SPOT",
+                    "WeightUnits": "LBS",
+                    "date": "2021-09-10",
+                    "priceSheetId": 1
+                }
+            ]
+        }
+    ]
+}

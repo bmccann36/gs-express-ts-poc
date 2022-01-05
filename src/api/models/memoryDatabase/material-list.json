@@ -1,0 +1,220 @@
+{
+  "resultsReturned": 1,
+  "page": 1,
+  "pageSize": 10,
+  "fromKey": "",
+  "Items": [
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402182",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket1",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 3973,
+          "units": "lbs",
+          "commonString": "3973 lbs"
+        },
+        "tare": {
+          "amount": 10,
+          "units": "lbs",
+          "commonString": "10 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 3963,
+          "units": "lbs",
+          "commonString": "3963 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$1.95/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 195
+        },
+        "netValue": {
+          "commonString": "$7201.35",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 720135
+        }
+      },
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402183",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37791",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket2",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 2000,
+          "units": "lbs",
+          "commonString": "2000 lbs"
+        },
+        "tare": {
+          "amount": 125,
+          "units": "lbs",
+          "commonString": "125 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 1875,
+          "units": "lbs",
+          "commonString": "1875 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$2.25/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 225
+        },
+        "netValue": {
+          "commonString": "$4210.75",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 421075
+        }
+      },
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402183",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37792",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915772",
+      "inboundTicketId": "ticket2",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 1000,
+          "units": "lbs",
+          "commonString": "2000 lbs"
+        },
+        "tare": {
+          "amount": 125,
+          "units": "lbs",
+          "commonString": "125 lbs"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 1875,
+          "units": "lbs",
+          "commonString": "1875 lbs"
+        },
+        "um": "lbs",
+        "netPrice": {
+          "commonString": "$1.85/lb",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 225
+        },
+        "netValue": {
+          "commonString": "$3460.75",
+          "currency": "USD",
+          "precision": 2,
+          "amount": 346075
+        }
+      },
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    },
+    {
+      "id": "7a6ce777-2cdb-4587-bcc1-c5af61402184",
+      "archive": false,
+      "materialTypeId": "a4a5bfc5-e33f-44f8-8fa0-1b21bfa37793",
+      "commodityId": "7307e828-9953-4405-b0ec-188aa4915773",
+      "inboundTicketId": "ticket3",
+      "weightAndPrice": {
+        "gross": {
+          "amount": 100,
+          "units": "NT",
+          "commonString": "100 NT"
+        },
+        "tare": {
+          "amount": 1,
+          "units": "NT",
+          "commonString": "1 NT"
+        },
+        "deductions": [],
+        "netWeight": {
+          "amount": 99,
+          "units": "NT",
+          "commonString": "99 NT"
+        },
+        "um": "NT",
+        "netPrice": {
+          "commonString": "$10.00/NT",
+          "currency": "USD",
+          "precision": 0,
+          "amount": 10
+        },
+        "netValue": {
+          "commonString": "$990.00",
+          "currency": "USD",
+          "precision": 0,
+          "amount": 990
+        }
+      },
+      "weightAndPriceHistory": [],
+      "status": {
+        "value": "WIP",
+        "date": 1635291048076,
+        "userId": "mockuser"
+      },
+      "statusHistory": [
+        {
+          "value": "WIP",
+          "date": 1635291048076,
+          "userId": "mockuser"
+        }
+      ],
+      "GSI1PK": "WIP",
+      "GSI1SK": 1635291048076
+    }
+  ]
+}

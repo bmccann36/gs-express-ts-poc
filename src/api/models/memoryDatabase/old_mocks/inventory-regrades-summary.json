@@ -1,0 +1,94 @@
+{
+  "resultsReturned": 3,
+  "page": 1,
+  "totalRegrades": 100,
+  "regradesToday": 5,
+  "totalValueGained": {
+    "amount": 10000,
+    "currency": "usd",
+    "precision": 0
+  },
+  "largestRegradedMaterialByWeight": "Aluminum 01",
+  "data": [
+    {
+      "id": "10-1001",
+      "date": "2021-05-12",
+      "fromMaterial": [
+        {
+          "id": "1234",
+          "name": "Aluminum 01",
+          "weight": {
+            "amount": 100,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "toMaterial": [
+        {
+          "id": "4567",
+          "name": "Aluminum 02",
+          "weight": {
+            "amount": 80,
+            "unit": "lbs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-1002",
+      "date": "2021-05-12",
+      "fromMaterial": [
+        {
+          "id": "9012",
+          "name": "Copper #1",
+          "weight": {
+            "amount": 100,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "toMaterial": [
+        {
+          "id": "3456",
+          "name": "Copper #2",
+          "weight": {
+            "amount": 100,
+            "unit": "lbs"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-1003",
+      "date": "2021-05-12",
+      "fromMaterial": [
+        {
+          "id": "7890",
+          "name": "Mixed Brass Load",
+          "weight": {
+            "amount": 100,
+            "unit": "lbs"
+          }
+        }
+      ],
+      "toMaterial": [
+        {
+          "id": "0987",
+          "name": "Brass #1",
+          "weight": {
+            "amount": 50,
+            "unit": "lbs"
+          }
+        },
+        {
+          "id": "6543",
+          "name": "Brass #2",
+          "weight": {
+            "amount": 40,
+            "unit": "lbs"
+          }
+        }
+      ]
+    }
+  ]
+}

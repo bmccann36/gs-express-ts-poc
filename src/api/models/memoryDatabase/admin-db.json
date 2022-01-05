@@ -1,0 +1,17 @@
+{
+  "Organizations": [
+    {
+      "id": "a7ecc55c-a1c2-49b8-ae28-9be82b176fc9",
+      "name": "Hulk Smash",
+      "dbName": "hulk_smash",
+      "archive": false
+    },
+    {
+      "id": "c260a01a-2877-4776-9184-8edadfa053a5",
+      "name": "Bob's Scrap",
+      "dbName": "bobs_scrap",
+      "archive": false
+
+    }
+  ]
+}
