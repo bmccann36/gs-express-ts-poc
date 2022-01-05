@@ -1,10 +1,41 @@
 {
   "name": "hello_world",
   "version": "1.0.0",
-  "devDependencies": {
-    "jest": "^27.4.6"
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.89",
+    "@vendia/serverless-express": "^4.5.2",
+    "currency.js": "^2.0.4",
+    "dinero.js": "^1.9.0",
+    "express": "^4.17.2",
+    "fast-csv": "^4.3.6",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.5",
+    "lodash": "^4.17.21",
+    "migrate": "^1.7.0",
+    "random": "^3.0.6",
+    "source-map-support": "^0.5.21",
+    "uuid": "^8.3.2"
   },
   "scripts": {
-    "invoke": "sam build && sam local invoke --event events/event.json --env-vars events/envars.json --docker-network local-util_default"
+    "test": "jest",
+    "invoke": "sam local invoke --event events/event.json --env-vars events/envars.json --docker-network local-util_default",
+    "build": "cp package.json dist/package.json && sam build"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.35.0",
+    "@aws-sdk/client-lambda": "^3.32.0",
+    "@aws-sdk/client-s3": "^3.35.0",
+    "@aws-sdk/lib-dynamodb": "^3.35.0",
+    "@aws-sdk/util-dynamodb": "^3.36.0",
+    "aws-sdk": "^2.660.0",
+    "aws-sdk-client-mock": "^0.5.5",
+    "jest": "^27.4.6",
+    "mock-aws-s3": "^4.0.2"
   }
 }
